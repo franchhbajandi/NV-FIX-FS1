@@ -1,0 +1,203 @@
+{
+  "_note": "Photo manifest for Episode 2. Alt text is generic and based on filenames only; client to refine captions. needsFaceCheck: true means the client must confirm faces are blurred or cropped IN THE FILE; build prints a warning list until each is set to false after checking. Ignore ep-02-wall-displays.jpg (duplicate) and any Screenshot_*.jpg.",
+  "photos": [
+    {
+      "file": "ep-02-principals-office-1.webp",
+      "alt": "The principal's office",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-library-01.webp",
+      "alt": "The school library",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-library-02.webp",
+      "alt": "The school library, second view",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-canteen-1.webp",
+      "alt": "The school canteen",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-canteen-2.webp",
+      "alt": "The school canteen, second view",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-medical-clinic.webp",
+      "alt": "The medical clinic",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-science-laboratory.webp",
+      "alt": "The science laboratory",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-gymnasium-01.webp",
+      "alt": "The gymnasium",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-comfort-room-girls-1.webp",
+      "alt": "The girls' comfort room",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-comfort-room-girls-02.webp",
+      "alt": "The girls' comfort room, second view",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-wash-station-1.webp",
+      "alt": "A handwashing station",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-wash-station-2.webp",
+      "alt": "A handwashing station, second view",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-faculty-room-2.webp",
+      "alt": "The faculty room",
+      "caption": "",
+      "role": "facility",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-bulletin-board.webp",
+      "alt": "A classroom bulletin board",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-learners-desk-chairs.webp",
+      "alt": "Learners' desks and chairs in a classroom",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-learners-desk-chairs-2.webp",
+      "alt": "Learners' desks and chairs in a classroom, second view",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-whiteboard.webp",
+      "alt": "A classroom whiteboard",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-wall-displays.webp",
+      "alt": "Classroom wall displays",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-learning-materials.webp",
+      "alt": "Learning materials shown on a classroom television",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "ep-02-water-dispenser.webp",
+      "alt": "A classroom water dispenser",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-air-conditioners.webp",
+      "alt": "Air conditioners installed on classroom windows",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-ceiling-fan.webp",
+      "alt": "A classroom ceiling fan",
+      "caption": "",
+      "role": "classroom",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "ep-02-personal-illustration.webp",
+      "alt": "Hand-drawn sketch of an ideal classroom",
+      "caption": "",
+      "role": "illustration",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "misc-schoolhallway.webp",
+      "alt": "A school hallway",
+      "caption": "",
+      "role": "mood",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "misc-school-entrance-hallway.webp",
+      "alt": "The school entrance hallway",
+      "caption": "",
+      "role": "mood",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "misc-school-entrance-hallway-2.webp",
+      "alt": "The school entrance hallway, second view",
+      "caption": "",
+      "role": "mood",
+      "needsFaceCheck": true
+    },
+    {
+      "file": "misc-ramps-for-pwd.webp",
+      "alt": "A ramp for persons with disabilities",
+      "caption": "",
+      "role": "mood",
+      "needsFaceCheck": false
+    },
+    {
+      "file": "misc-schoolhallway…mokingsign.webp",
+      "alt": "A school hallway with a posted sign",
+      "caption": "",
+      "role": "mood",
+      "needsFaceCheck": true,
+      "fileMatch": "misc-schoolhallway*mokingsign.webp",
+      "note": "Filename was truncated in the client's screenshot. Match by this pattern; client to confirm the exact name."
+    }
+  ]
+}

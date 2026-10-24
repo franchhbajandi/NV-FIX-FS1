@@ -1,0 +1,30 @@
+{
+  "_comment": "Separate status registry for Field Study 1 content intake. Keys use item paths and array indexes; source JSON files remain untouched byte-for-byte.",
+  "episodes": {
+    "ep-01": "COMPLETE",
+    "ep-02": "COMPLETE",
+    "ep-03": "COMPLETE",
+    "ep-04": "COMPLETE",
+    "ep-05": "COMPLETE",
+    "ep-06": "PENDING"
+  },
+  "fields": {
+    "ep-01.task2.roadmap": "PENDING",
+    "ep-03.activity2.teacherInterview.practicesTable.rows[3]": "COMPLETE",
+    "ep-04.activity2.observationSheet.gradeLevel": "COMPLETE",
+    "ep-05.activity2.rtInterview.profile.yearsInService": "COMPLETE",
+    "ep-05.activity3.classroomDrawing": "COMPLETE",
+    "ep-06.questions[0]": "PENDING",
+    "ep-06.reflection": "PENDING",
+    "appendices.classProgram[0]": "PENDING",
+    "appendices.classProgram[1]": "COMPLETE",
+    "appendices.dtr.entries[0]": "PENDING",
+    "appendices.evidenceGallery": "PENDING",
+    "photos.ep01-01-academic-roadmap": "PENDING",
+    "photos.ep03-01-learner-groupwork": "PENDING",
+    "photos.ep04-01-instructional-board": "PENDING",
+    "photos.ep05-01-classroom-furniture": "PENDING",
+    "photos.ep06-01-assessment-rubric": "PENDING"
+  }
+}
+

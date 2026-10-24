@@ -1,0 +1,192 @@
+{
+  "resourceTeacher": {
+    "name": "Herson N. Alamo",
+    "title": "Mr. Herson N. Alamo, Teacher VI",
+    "designation": "Teacher VI · Secondary English & Campus Journalism Mentor",
+    "subjectArea": "English (Journalism, Composition, and Literature)",
+    "school": "Cooperating Public Secondary School (DepEd Albay / Legazpi Division)",
+    "observedClasses": [
+      "Secondary English — Journalism & News Lead Writing",
+      "Secondary English — Diction, Stylistics, and Clausal Modifiers"
+    ],
+    "pedagogicalSpecialties": [
+      "4As Instructional Framework (Activity, Analysis, Abstraction, Application)",
+      "Randomized Index-Card Recitation & Equitable Cold-Calling",
+      "Campus Journalism Coaching & Inverted Pyramid News Architecture",
+      "Tactile & Visual Sentence-Strip Grammar Manipulation"
+    ],
+    "biographicalNote": "Mr. Herson N. Alamo holds the rank of Teacher VI in the Department of Education, serving as a seasoned secondary English educator and publication adviser. Across all observed sessions in Field Study 1, his classroom practice exemplified the integration of structured DepEd lesson planning, Socratic questioning, and tactile instructional scaffolding."
+  },
+  "classProgram": [
+    {
+      "time": "[PENDING]",
+      "days": "Monday – Friday",
+      "gradeSection": "Observed English Class (Journalism Unit)",
+      "subject": "English / Journalism",
+      "focus": "News Lead Writing, Inverted Pyramid, 5 Ws & 1 H",
+      "status": "PENDING"
+    },
+    {
+      "time": "9:15 – 10:00 AM (Wed–Fri); 8:15 – 9:00 AM (Tue); 3:15 – 4:00 PM (Mon)",
+      "days": "Monday – Friday",
+      "gradeSection": "Grade 8 — Pasteur (Observed English Class, Diction & Style Unit)",
+      "subject": "English 8 (Language & Stylistics)",
+      "focus": "Diction, Clausal Modifiers, and Rhetorical Precision",
+      "file": "/assets/aistudio/class_schedule_42cb8c25.svg",
+      "status": "COMPLETE"
+    }
+  ],
+  "schoolSite": {
+    "schoolName": "Cooperating Public Secondary School",
+    "address": "Albay, Bicol Region, Philippines",
+    "campusOverview": "The cooperating public secondary school features a multi-building academic campus organized around a central quadrangle, covered walkways, and dedicated departmental wings.",
+    "description": "Observations were conducted in Mr. Herson N. Alamo's secondary English classroom. The learning space is arranged to support both whole-class direct modeling at the front board and rapid transitions into cooperative student pairs and small groups.",
+    "rulesAndRegulations": [
+      "Arrive punctually in prescribed Field Study observer attire and display the official Bicol University identification card at all times.",
+      "Coordinate all classroom observation schedules, seating placements, and artifact documentation in advance with the Cooperating Resource Teacher.",
+      "Maintain non-intrusive observational discipline during instructional delivery; record field notes quietly without disrupting learner focus.",
+      "Uphold strict learner privacy and data protection: anonymize student names in analytical notes and blur or crop any identifiable student faces in photographic documentation.",
+      "Complete and sign the Daily Time Record (DTR) accurately after each observation session for verification by the Resource Teacher."
+    ]
+  },
+  "dtr": {
+    "title": "Daily Time Record",
+    "pages": [
+      {
+        "id": "dtr-september",
+        "label": "September",
+        "file": "appendix-dtr-september.webp",
+        "alt": "Daily Time Record, September"
+      },
+      {
+        "id": "dtr-october",
+        "label": "October",
+        "file": "appendix-dtr-october.webp",
+        "alt": "Daily Time Record, October"
+      }
+    ],
+    "studentName": "Francois Joshua L. Bajandi",
+    "course": "Field Study 1 — Observations of Teaching-Learning in Actual School Environment",
+    "semester": "First Semester, A.Y. 2025–2026",
+    "totalRequiredHours": 48,
+    "completedHours": 48,
+    "verifiedBy": "Mr. Herson N. Alamo, Teacher VI",
+    "summary": "Daily Time Record (DTR) logs and signed attendance verification sheets are pending final scan intake.",
+    "entries": [
+      {
+        "sessionNumber": 1,
+        "date": "[PENDING]",
+        "timeIn": "[PENDING]",
+        "timeOut": "[PENDING]",
+        "hours": 0,
+        "episodeFocus": "Episode 04: Teaching and Learning Process (Journalism & Diction Units)",
+        "remarks": "Verified by Resource Teacher",
+        "status": "PENDING"
+      }
+    ]
+  },
+  "clearance": {
+    "title": "Clearance",
+    "file": "clearance.webp",
+    "alt": "Clearance",
+    "status": "Cleared / Signed",
+    "dateIssued": "Academic Year 2025–2026",
+    "signatories": [
+      {
+        "name": "Herson N. Alamo",
+        "designation": "Cooperating Resource Teacher, Teacher VI"
+      },
+      {
+        "name": "Experiential Learning Coordinator",
+        "designation": "Experiential Learning Office, Bicol University College of Education"
+      }
+    ],
+    "office": "Experiential Learning Office, Bicol University College of Education",
+    "certificationText": "This certifies that Francois Joshua L. Bajandi, BSEd English IV, has satisfactorily fulfilled the classroom observation requirements and documentary coursework for Field Study 1 under the supervision of Mr. Herson N. Alamo, Teacher VI."
+  },
+  "documentation": {
+    "title": "Documentation",
+    "groups": [
+      {
+        "id": "orientation",
+        "name": "Orientation",
+        "photos": []
+      },
+      {
+        "id": "during-observations",
+        "name": "During Observations",
+        "photos": [
+          {
+            "id": "doc-obs-01",
+            "file": "author-working.webp",
+            "alt": "Francois Joshua L. Bajandi working in a classroom",
+            "caption": ""
+          },
+          {
+            "id": "doc-obs-02",
+            "file": "author-during-observation-1.webp",
+            "alt": "Francois Joshua L. Bajandi during the classroom observation",
+            "caption": ""
+          },
+          {
+            "id": "doc-obs-03",
+            "file": "author-during-observation-2.webp",
+            "alt": "Francois Joshua L. Bajandi during the classroom observation",
+            "caption": ""
+          },
+          {
+            "id": "doc-obs-04",
+            "file": "students-working-blurred-1.webp",
+            "alt": "Students working in class",
+            "caption": ""
+          },
+          {
+            "id": "doc-obs-05",
+            "file": "students-working-blurred-2.webp",
+            "alt": "Students working in class",
+            "caption": ""
+          }
+        ]
+      },
+      {
+        "id": "interviews",
+        "name": "Interviews",
+        "photos": []
+      }
+    ]
+  },
+  "evidenceGallery": [
+    {
+      "id": "ev-01",
+      "type": "image",
+      "title": "Instructional board work: Inverted pyramid & news lead modeling",
+      "caption": "Whiteboard breakdown of inverted pyramid news structure and journalistic economy.",
+      "placeholderLabel": "Photo slot: ep04-01-instructional-board",
+      "aspectRatio": "16/9"
+    },
+    {
+      "id": "ev-02",
+      "type": "image",
+      "title": "Cooperative pair-share & lead-writing workshop",
+      "caption": "Small-group cooperative lead-writing session during the Abstraction phase.",
+      "placeholderLabel": "Photo slot: ep03-01-learner-groupwork",
+      "aspectRatio": "4/3"
+    },
+    {
+      "id": "ev-03",
+      "type": "image",
+      "title": "Classroom seating & circulation layout",
+      "caption": "Observed classroom seating arrangement: paired cooperative stations with open perimeter pathways.",
+      "placeholderLabel": "Photo slot: ep05-01-classroom-furniture",
+      "aspectRatio": "16/9"
+    },
+    {
+      "id": "ev-04",
+      "type": "certificate",
+      "title": "Field Study 1 certificate of completion & clearance",
+      "caption": "Official signed clearance and completion record from the cooperating school and Experiential Learning Office.",
+      "placeholderLabel": "Document slot: clearance-certificate",
+      "aspectRatio": "4/3"
+    }
+  ]
+}

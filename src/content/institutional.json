@@ -1,0 +1,172 @@
+{
+  "student": {
+    "name": "Francois Joshua L. Bajandi",
+    "nickname": "Josh",
+    "degree": "Bachelor of Secondary Education",
+    "major": "Major in English",
+    "yearLevel": "Fourth Year (BSEd English IV)",
+    "publicationRole": "Campus Journalist & Editorial Layout Designer, UNDERCURRENTS",
+    "email": "francoisjoshua.bajandi@bicol-u.edu.ph",
+    "portfolioTitle": "The Observer's Edition",
+    "academicYear": "Academic Year 2025–2026"
+  },
+  "institution": {
+    "republic": "Republic of the Philippines",
+    "university": "Bicol University",
+    "college": "College of Education",
+    "office": "Experiential Learning Office",
+    "location": "Daraga, Albay, Philippines"
+  },
+  "course": {
+    "code": "Field Study 1",
+    "title": "Observations of Teaching-Learning in Actual School Environment",
+    "description": "Field Study 1 is the first experiential learning course in the Bachelor of Secondary Education program, anchored on the Philippine Professional Standards for Teachers (PPST) and CHED Memorandum Order No. 75, s. 2017. It immerses the pre-service teacher in an authentic public secondary school environment to observe, document, and analyze how learners develop, how learning environments are structured, and how veteran educators orchestrate curriculum, pedagogy, and assessment.",
+    "outcomes": [
+      {
+        "number": 1,
+        "domainAlignment": "PPST Domain 1: Content Knowledge and Pedagogy",
+        "statement": "Analyze how the Resource Teacher translates curriculum competencies into developmentally sequenced, research-based instructional strategies and ICT-supported learning experiences in secondary English."
+      },
+      {
+        "number": 2,
+        "domainAlignment": "PPST Domain 2: Learning Environment",
+        "statement": "Evaluate the physical, psychological, and socio-emotional dimensions of the school campus and classroom in promoting learner safety, inclusivity, and purposeful engagement."
+      },
+      {
+        "number": 3,
+        "domainAlignment": "PPST Domain 3: Diversity of Learners",
+        "statement": "Observe and document differentiated teaching practices that respond to learners' linguistic, cultural, socio-economic, and developmental profiles."
+      },
+      {
+        "number": 4,
+        "domainAlignment": "PPST Domain 4: Curriculum and Planning",
+        "statement": "Examine how daily lesson logs, learning resources, and collaborative departmental planning align instructional activities with national K to 12 curriculum standards."
+      },
+      {
+        "number": 5,
+        "domainAlignment": "PPST Domain 5: Assessment and Reporting",
+        "statement": "Critique the design and implementation of diagnostic, formative, and summative assessment tools, rubric systems, and constructive feedback loops."
+      },
+      {
+        "number": 6,
+        "domainAlignment": "PPST Domain 6: Community Linkages and Professional Engagement",
+        "statement": "Identify how school-community partnerships, parental communication, and organizational norms strengthen the broader educational ecosystem."
+      },
+      {
+        "number": 7,
+        "domainAlignment": "PPST Domain 7: Personal Growth and Professional Development",
+        "statement": "Articulate an evolving philosophy of teaching grounded in ethical practice, reflective inquiry, and lifelong professional learning."
+      }
+    ]
+  },
+  "acknowledgement": {
+    "title": "Acknowledgement",
+    "paragraphs": [
+      "The completion of this Field Study 1 Portfolio—The Observer's Edition—stands as a testament to the generosity, mentorship, and intellectual rigor of the educators and peers who guided my transition from university theory to the living reality of the public school classroom.",
+      "Foremost, I extend my deepest gratitude to my Cooperating Resource Teacher, Mr. Herson N. Alamo, Teacher VI. His mastery of secondary English instruction, journalistic precision, and calm, structured classroom authority offered a daily masterclass in what it means to teach with both high standards and genuine empathy. Thank you for opening your classroom, your lesson plans, and your reflective practice to my constant inquiry.",
+      "To the faculty and administrators of the Bicol University College of Education and the Experiential Learning Office in Daraga, Albay: thank you for designing a field immersion framework that challenges pre-service teachers not merely to watch, but to read the classroom critically through the lens of the Philippine Professional Standards for Teachers.",
+      "To my fellow editors and writers at UNDERCURRENTS, whose commitment to truthful observation and editorial craft sharpened the documentary eye I brought into every classroom session; and to my family, whose quiet sacrifices and unwavering encouragement sustain my vocation as an educator—this work is gratefully dedicated to you."
+    ],
+    "signOff": "Francois Joshua L. Bajandi",
+    "role": "Pre-Service Teacher, BSEd English IV"
+  },
+  "prayer": {
+    "title": "Prayer of the Field Study Student",
+    "content": [
+      "Lord of Wisdom and Light, as I step across the threshold of the classroom, quiet my assumptions and sharpen my attention.",
+      "Grant me the humility of a true observer—to see every learner not as a seat on a chart, but as a story in progress; to recognize the unseen labor behind every lesson; and to honor the trust placed in those who teach.",
+      "May the words I record in these pages be honest, may the questions I ask be rooted in care, and may the educator I am becoming always serve truth, clarity, and the dignity of every student. Amen."
+    ]
+  },
+  "buVMGO": {
+    "vision": "A world-class university producing leaders and change agents for social transformation and development.",
+    "mission": "The Bicol University shall primarily give professional and technical training, and provide advanced and specialized instruction in literature, philosophy, the sciences and arts, besides providing for the promotion of scientific and technological researches (RA 5521, Sec. 3.0).",
+    "qualityPolicy": "Bicol University commits to continually strive for excellence in instruction, research, and extension by meeting the highest level of clientele satisfaction and adhering to quality standards and applicable statutory and regulatory requirements.",
+    "coreValues": [
+      "Scholarship",
+      "Leadership",
+      "Character",
+      "Service"
+    ],
+    "collegeGoals": [
+      "Produce globally competitive, ethically grounded, and reflective teachers equipped with 21st-century pedagogical and technological competencies.",
+      "Generate transformative educational research that addresses regional and national challenges in basic and higher education.",
+      "Strengthen sustainable partnerships with DepEd divisions, cooperating schools, and local communities."
+    ]
+  },
+  "depEdVMGO": {
+    "vision": "We dream of Filipinos who passionately love their country and whose values and competencies enable them to realize their full potential and contribute meaningfully to building the nation. As a learner-centered public institution, the Department of Education continuously improves itself to better serve its stakeholders.",
+    "mission": "To protect and promote the right of every Filipino to quality, equitable, culture-based, and complete basic education where: Students learn in a child-friendly, gender-sensitive, safe, and motivating environment; Teachers facilitate learning and constantly nurture every learner; Administrators and staff, as stewards of the institution, ensure an enabling and supportive environment for effective learning to happen; Family, community, and other stakeholders are actively engaged and share responsibility for developing life-long learners.",
+    "coreValues": [
+      "Maka-Diyos",
+      "Maka-tao",
+      "Makakalikasan",
+      "Makabansa"
+    ]
+  },
+  "cv": {
+    "profileSummary": "Fourth-year Bachelor of Secondary Education Major in English candidate at Bicol University College of Education, combining classroom pedagogy in language and literature with four years of campus journalism, publication design, and editorial leadership at UNDERCURRENTS.",
+    "education": [
+      {
+        "institution": "Bicol University College of Education",
+        "location": "Daraga, Albay",
+        "degree": "Bachelor of Secondary Education, Major in English",
+        "period": "2022 – Present",
+        "highlights": [
+          "Pre-Service Teacher Observer, Field Study 1 (Experiential Learning Courses)",
+          "Consistent Academic Achiever in Language Acquisition, Stylistics, and Pedagogical Assessment"
+        ]
+      }
+    ],
+    "editorialExperience": [
+      {
+        "organization": "UNDERCURRENTS — Official Student Publication",
+        "role": "Campus Journalist & Editorial Layout Designer",
+        "period": "2022 – Present",
+        "contributions": [
+          "Spearheaded broadsheet layout architecture, typographic systems, and visual journalism for print and digital issues.",
+          "Authored investigative features, campus news reports, and literary-critical essays.",
+          "Mentored junior staff writers in news lead construction, copy editing, and ethical reporting."
+        ]
+      }
+    ],
+    "competencies": [
+      {
+        "category": "Pedagogy & Curriculum",
+        "skills": [
+          "K to 12 English Curriculum Alignment",
+          "4As Instructional Design (Activity, Analysis, Abstraction, Application)",
+          "Communicative Language Teaching & Scaffolding",
+          "Rubric Construction & Formative Assessment"
+        ]
+      },
+      {
+        "category": "Journalism & Communication",
+        "skills": [
+          "News, Feature, and Editorial Writing",
+          "Copy Reading, Headline Writing, and Stylebook Governance",
+          "Oral Communication & Classroom Discourse Facilitation"
+        ]
+      },
+      {
+        "category": "Editorial Design & Media",
+        "skills": [
+          "Broadsheet & Publication Layout Design",
+          "Typographic Hierarchy & Information Architecture",
+          "Instructional Material & Visual Aid Production"
+        ]
+      }
+    ],
+    "teachingInterests": [
+      "Secondary English Language & Literature Instruction",
+      "Campus Journalism Advising & Media Literacy",
+      "Critical Reading, Rhetoric, and Argumentative Writing",
+      "Dialogic & Inquiry-Based Classroom Environments"
+    ]
+  },
+  "certificateOfCompletion": {
+    "title": "Certificate of Completion",
+    "file": "cert-completion.webp",
+    "alt": "Certificate of Completion"
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "_note": "VERBATIM client content except the logged items in _changes. Keys starting with underscore are NOT content: never render or verify them. 'pullquote' and 'themeQuote' are exact substrings of the client's own text (display hints only). Paragraph breaks inside 'answer' are \\n\\n. Objects with status PENDING are hidden in production and print.",
+  "_omitted": [
+    "Tasks checklist and its in-app notes",
+    "Suffix on the resource teacher line about his returned interview",
+    "Italic notes 'All 21 items...' and 'All 15 items... checklist complete'",
+    "Heading note '(from the Oct 8 transcript)' above the three strategy illustrations (illustrations moved into the Remarks column of their rows)",
+    "Italic note about the hand-drawn classroom layout being kept in a notebook",
+    "Status markers (Complete) and headings 'Reflect — Routines', 'Reflect — Strategies', 'Time, Space & Resources', 'Reflection' replaced by the module's activity numbers and names"
+  ],
+  "_changes": [
+    "Outer quotation marks around the resource teacher's answers removed (rendered as attributed quotes)",
+    "Strategy illustrations placed in the Remarks column of Establish classroom guidelines, Document the rules, and Encourage initiative from class",
+    "Resource teacher header merged into the module's interview fields; Years in Service is PENDING (not provided)",
+    "Activity 3 drawing is a PENDING media slot until the client supplies a photo or scan of the notebook drawing"
+  ],
+  "episode": {
+    "number": "05",
+    "title": "Classroom Management",
+    "accent": "highlighter",
+    "themeQuote": "A rule being enforced does not equate to it being necessarily followed, or internalized.",
+    "school": "Legazpi City Science High School",
+    "gradeSection": "Grade 8 — Hooke",
+    "date": "October 8, 2026",
+    "resourceTeacher": "Herson N. Alamo, Teacher VI",
+    "worksheetPdf": "",
+    "activity1": {
+      "number": "1",
+      "title": "Observing Classroom Routines",
+      "routinesTable": {
+        "columns": [
+          {
+            "key": "routine",
+            "label": "Classroom Routines"
+          },
+          {
+            "key": "status",
+            "label": "Observed / Not Observed"
+          }
+        ],
+        "rows": [
+          {
+            "routine": "Movement into the classroom",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Movement out of the classroom",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Transition in classroom activities",
+            "status": "Observed"
+          },
+          {
+            "routine": "Use of lavatories/CR/washrooms",
+            "status": "Observed"
+          },
+          {
+            "routine": "Passing of papers",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Passing of books",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Working with pairs/groups",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Dealing with tardy students",
+            "status": "Observed"
+          },
+          {
+            "routine": "Dealing with absent students",
+            "status": "Observed"
+          },
+          {
+            "routine": "Submission/collection of materials",
+            "status": "Observed"
+          },
+          {
+            "routine": "Submission of projects",
+            "status": "Observed"
+          },
+          {
+            "routine": "Asking questions during lessons",
+            "status": "Observed"
+          },
+          {
+            "routine": "Asking for assistance",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Joining classroom activities",
+            "status": "Observed"
+          },
+          {
+            "routine": "Lining up",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Walking in line",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Fire drill/emergencies",
+            "status": "Observed"
+          },
+          {
+            "routine": "Movement between activities",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Use of classroom supplies",
+            "status": "Observed"
+          },
+          {
+            "routine": "Checking of assignments",
+            "status": "Not observed"
+          },
+          {
+            "routine": "Checking of attendance",
+            "status": "Observed"
+          }
+        ]
+      },
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Were the routines effective in ensuring discipline and order in the class? Why or why not?",
+          "answer": "Partially. The cell phone collection routine is clearly established and has real structure behind it — a designated student (the class president) is responsible for monitoring compliance, and the policy has been in place since Term 1. But enforcement was visibly inconsistent on the day observed: only 21 students submitted their phones, and the teacher had to stop mid-lesson to remind the rest. The routine exists and is understood, but it isn't being followed with full discipline — a structured rule doesn't guarantee consistent compliance without ongoing reinforcement.",
+          "display": "expander",
+          "pullquote": "a structured rule doesn't guarantee consistent compliance without ongoing reinforcement."
+        },
+        {
+          "n": 2,
+          "prompt": "Which of those routines were systematic and consistently implemented? Explain your answer.",
+          "answer": "The cell phone submission routine stood out as the most systematic — it has a fixed trigger (arrival each morning), a designated enforcer (the class president), and has been running long enough (since Term 1) that students already know the expectation, even if not all of them follow it that day. The teacher's handling of it also showed it's a recurring, named concern rather than a one-time reminder — she referenced it as an ongoing issue she's tracking, not something she invented on the spot.",
+          "display": "expander"
+        },
+        {
+          "n": 3,
+          "prompt": "How did the classroom organization and routines affect the learners' behavior?",
+          "answer": "A realization dawned on me observing Hooke when it comes to classroom regulation existing and it actually being internalized — there is always a gap that the teacher has to address if they wish for these rules to be consistently observed and respected in the classroom. A rule being enforced does not equate to it being necessarily followed, or internalized. Case in point: the rule of surrendering students' mobile phones into a dedicated drawer atop the teacher's table, at the front, before classes start. Despite the rule being enforced since Term 1, nearly half of the students did not observe it — which illustrates how rules, no matter how long they've been enforced, can still be rendered meaningless without active, repeated enforcement. As such, these routines lose their purpose, decay, and become something students know about rather than something they follow.",
+          "display": "expander",
+          "pullquote": "A rule being enforced does not equate to it being necessarily followed, or internalized."
+        }
+      ]
+    },
+    "activity2": {
+      "number": "2",
+      "title": "Demonstrating knowledge of positive and non-violent discipline in the management of learner behavior",
+      "strategiesTable": {
+        "columns": [
+          {
+            "key": "strategy",
+            "label": "Effective Classroom Management Strategies"
+          },
+          {
+            "key": "status",
+            "label": "Observed / Not Observed / No Opportunity to observe"
+          },
+          {
+            "key": "remarks",
+            "label": "Remarks/Notes"
+          }
+        ],
+        "rows": [
+          {
+            "strategy": "Model to the students how to act in different situations",
+            "status": "Observed"
+          },
+          {
+            "strategy": "Establish classroom guidelines",
+            "status": "Observed",
+            "remarks": "Cell phone collection policy, running since Term 1 — students submit their phones upon arrival each morning, visible at the front of the room."
+          },
+          {
+            "strategy": "Document the rules",
+            "status": "Observed",
+            "remarks": "The same cell phone policy, consistently referenced and reinforced verbally across sessions rather than treated as a one-off announcement."
+          },
+          {
+            "strategy": "Refrain from punishing the entire class",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Encourage initiative from class",
+            "status": "Observed",
+            "remarks": "The class president is specifically tasked with ensuring compliance, and the teacher appeals directly to peer fairness (\"if you see a classmate who didn't submit, call them out\") rather than policing it alone."
+          },
+          {
+            "strategy": "Offers praise and rewards",
+            "status": "Observed"
+          },
+          {
+            "strategy": "Use non-verbal communication",
+            "status": "Observed"
+          },
+          {
+            "strategy": "Take time to celebrate group effort",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Let students work in groups",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Interview students to assess their needs",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Address bad behavior quickly",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Consider peer teaching",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Continuously engage the students",
+            "status": "Observed"
+          },
+          {
+            "strategy": "Assign open-ended project",
+            "status": "No opportunity to observe"
+          },
+          {
+            "strategy": "Write group contracts",
+            "status": "No opportunity to observe"
+          }
+        ]
+      },
+      "rtInterview": {
+        "title": "Guide for the Interview of the Resource Teacher",
+        "profile": {
+          "nameOfResourceTeacher": "Herson N. Alamo, Teacher VI",
+          "gradeLevelSubject": "English 8",
+          "dateOfInterview": "October 12, 2026",
+          "yearsInService": {
+            "value": "17",
+            "status": "COMPLETE"
+          }
+        },
+        "attribution": "full",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "What is the most effective classroom discipline strategy you have applied in your class/es?",
+            "answer": "For me, one of the most effective strategies is being consistent with classroom expectations while still being approachable. I correct students when necessary, but I also make sure to listen to their side. I have learned that students respond better when they know that you are correcting them to help them improve, not simply to punish them.",
+            "display": "expander",
+            "pullquote": "students respond better when they know that you are correcting them to help them improve, not simply to punish them."
+          },
+          {
+            "n": 2,
+            "prompt": "Do you allow your students to participate in making the classroom rules? Can you describe the process? If not, how did you come up with your classroom rules?",
+            "answer": "Yes. At the beginning of the school year, I give my students the opportunity to share what they think makes a classroom conducive to learning. We discuss the importance of respect, responsibility, and cooperation, then agree on rules that everyone should follow. I want them to understand that classroom rules are not just imposed by the teacher; they are commitments that we all need to uphold.",
+            "display": "expander",
+            "pullquote": "classroom rules are not just imposed by the teacher; they are commitments that we all need to uphold."
+          },
+          {
+            "n": 3,
+            "prompt": "How do you maintain good behavior in your classroom? How do you motivate your students?",
+            "answer": "I maintain good behavior by setting clear expectations, being consistent, and building a good relationship with my students. I also try to make my lessons engaging so they have more reasons to participate. When it comes to motivation, I appreciate their efforts and acknowledge their progress. I believe students are more willing to learn and behave well when they feel respected, valued, and understood.",
+            "display": "expander",
+            "pullquote": "students are more willing to learn and behave well when they feel respected, valued, and understood."
+          }
+        ]
+      },
+      "answer": {
+        "title": "Answer the following questions",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "How many strategies were employed by the resource teacher? Did these contribute to better classroom management? Explain your answer.",
+            "answer": "During the day of observation, seven (7) of the listed strategies were observed, whereas the remaining eight (8) were not witnessed during this particular visit. The seven that were seen — modeling behavior, establishing and documenting guidelines, encouraging initiative, offering praise and rewards, using non-verbal communication, and continuously engaging students — all contribute to classroom management, though unevenly. The cell phone routine, however, proves how rules, no matter how well-modeled and well-documented, can still falter in execution if not monitored and followed through consistently — demanding discernment from the teacher to be observant and proactive.",
+            "display": "expander"
+          },
+          {
+            "n": 2,
+            "prompt": "Which specific behavior strategies do you think were effective in the grade level you were assigned to do an observation?",
+            "answer": "For Grade 8 – Hooke, the strategy I found specifically effective and noteworthy was the integration of a peer-accountability structure across classroom rules and regulations — like the mobile phone turnover, for example. The enforcement of the rule is framed as maintaining fairness among students, where the class president, specifically, is tasked to ensure that each of his classmates follows the said rule. This removes the perception of classroom rules as static, or equivalent to top-down punishment. At this psychosocial stage of development (Grade 8), this mechanism is appropriate: students are more likely to respond positively and readily to social accountability than to authority alone.",
+            "display": "expander",
+            "pullquote": "students are more likely to respond positively and readily to social accountability than to authority alone."
+          }
+        ]
+      }
+    },
+    "activity3": {
+      "number": "3",
+      "title": "Management of Time, Space, and Resources",
+      "classroomDrawing": {
+        "image": "/assets/aistudio/ep-5-classroom-layout-box-room_3effb893.webp",
+        "caption": "Classroom layout diagram (Grade 8 — Hooke): student desk arrangement in three columns, front instructional zone with dual whiteboards and central television, and peripheral water dispenser and cooling fixtures.",
+        "status": "COMPLETE"
+      },
+      "answer": {
+        "title": "Answer the following questions",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "Describe the areas found in the classroom. Will it make a difference if these areas for specific purposes are not present?",
+            "answer": "The classroom layout observed during the period consisted mainly of a teacher's desk occupying the front center, flanked by two whiteboards and a central television. Students' desks are arranged in rows facing the front, typically in three dual-column rows with the middle column holding three. Other designated areas include an attendance chart by the front door, a bulletin board at the rear, a water dispenser in the back right corner, and cooling appliances — two air conditioners and electric fans distributed along the walls.\n\nIf any of these were absent, the learning environment would be negatively impacted, because the layout — down to each area's position — serves pedagogical, physical, and cognitive importance. The arrangement of the chairs, the teacher's desk, and the learning materials like the television all create a centralized instructional zone that incentivizes and demands student attention, while the structured seating allows for navigable aisles. Peripheral areas — the attendance chart, bulletin board, and water dispenser — are placed away from the center so students aren't visually overwhelmed, while still being structured enough to refer to when needed. All of this makes the classroom primarily a learning space that's also a supportive one.",
+            "display": "expander",
+            "pullquote": "All of this makes the classroom primarily a learning space that's also a supportive one."
+          },
+          {
+            "n": 2,
+            "prompt": "How did the teacher manage time, space, and resources?",
+            "answer": "The teacher managed the classroom by maintaining a structured seating arrangement with clear aisles and a focal point at the front of the room, using his desk to centralize the cell phone collection drawer. He managed resources by integrating a central television alongside traditional whiteboards to deliver visual instruction. For time, he relied on established routines — the morning cell phone turnover and delegating compliance tracking to the class president — designed to minimize administrative delays and maximize instructional time. However, the need to pause mid-lesson to enforce the phone rule highlights that managing time requires active, continuous reinforcement of those routines, not just having them in place.",
+            "display": "expander"
+          }
+        ]
+      }
+    },
+    "reflectionQuestions": {
+      "title": "Reflection Questions",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Imagine yourself organizing your classroom in the future. In what grade level do you see yourself? What routines and procedures would you consider for this level? Why?",
+          "answer": "In the future, I see myself teaching junior high school, likely Grade 8 or 9 English, which aligns with my current major in secondary English education here at Bicol University. For this level, I would adopt the kind of routines I've observed across several Grade 8 sections — centered on peer accountability and structured transitions. Junior high students at this stage are highly social and responsive to peer dynamics; their peers matter deeply to how they see themselves and seek validation. So procedures like designating group roles, peer-led material distribution, and a clear, student-monitored technology policy would foster a sense of shared responsibility. At this developmental stage, students are more likely to follow rules that help them belong to a social circle than rules mandated top-down.",
+          "display": "expander"
+        },
+        {
+          "n": 2,
+          "prompt": "What does this statement mean to you as a future teacher? Explain: \"No amount of good instruction will come out without effective classroom management.\"",
+          "answer": "This statement underscores classroom management as the bedrock — the invisible foundation that all instruction rests on. A teacher can have the most perfectly planned lesson, but if the classroom environment isn't managed carefully, or students aren't responded to appropriately in terms of behavior or structure, it falls apart — and students fail to absorb the material because they're distracted, or not psychologically primed to accept new learning. As seen with the cell phone policy in Grade 8 – Hooke, if rules aren't actively managed and internalized, distractions persist and instructional time is lost to behavioral corrections instead. Effective management creates the physical and psychological conditions for learning to actually happen.",
+          "display": "expander",
+          "pullquote": "Effective management creates the physical and psychological conditions for learning to actually happen."
+        },
+        {
+          "n": 3,
+          "prompt": "What are your plans in ensuring effective classroom management (including time, space, and resources)? Briefly discuss your answer.",
+          "answer": "My plan centers on establishing clear, co-created expectations from the start of the school year to build mutual respect and peer accountability. For space, I'll arrange the classroom for clear lines of sight and navigable aisles, keeping high-traffic areas like submission bins or water dispensers away from the main instructional zone. For time, I'll rely on established entry routines so students are engaged immediately upon arrival. For resources, I'll clearly label materials and assign student roles for distribution and collection, so my energy stays focused on instruction rather than administrative policing.",
+          "display": "expander"
+        }
+      ]
+    }
+  }
+}

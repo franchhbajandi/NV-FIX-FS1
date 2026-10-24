@@ -1,0 +1,322 @@
+{
+  "_note": "VERBATIM client content except the logged items in _changes. Keys starting with underscore are NOT content: never render or verify them. Rows/questions with status PENDING are hidden in production. 'pullquote' values are exact substrings of their answer (display hints only). Paragraph breaks inside 'answer' are \\n\\n.",
+  "_omitted": [
+    "Tasks checklist with progress notes",
+    "Private learner-code key table (contains real names; must never be published)",
+    "Header note about which section counted as the official observation and a dropped section",
+    "Note about two earlier-observed students being superseded",
+    "Roster 'Slot' labels, blank '—' cells, and roster title word 'Official'",
+    "Line about parent/guardian consent forms and their dates",
+    "Italic method note under the learner interview heading",
+    "Status markers (Complete / Final)",
+    "Note under the practices table about the teacher's blank questionnaire and the decision to use own observations",
+    "Practices row 4 placeholder text ('no clear evidence in notes yet'): row set to PENDING",
+    "'Activity 2A' and 'Activity 2B' labels (not in the module); headings 'Reflect — Home Environment' and 'Final Reflect / Analyze' replaced by the module's own wording"
+  ],
+  "_changes": [
+    "Practices row 1: a student's first name replaced with 'a student's' (that student is not among the four consented learners)",
+    "Practices row 7: removed the prefix 'Strongest evidence available — ' and capitalized 'Teacher'",
+    "Class Observation Q6: removed the tail ' — this half of the question remains open'",
+    "Learner interview Q3 prompt restored to the module wording: 'Which place at home do you study?'",
+    "Final Q3 prompt restored to the module spelling 'behaviour'",
+    "Practice labels in rows 2, 5, 6, 7 restored to the module's full wording",
+    "Outer quotation marks around the teacher's answers removed (rendered as attributed quotes)",
+    "Italic marker around the word 'style' in the home-environment answer removed"
+  ],
+  "episode": {
+    "number": "03",
+    "title": "Learner Behavior and Motivation",
+    "accent": "plum",
+    "school": "Legazpi City Science High School",
+    "sectionsObserved": "Linnaeus (Sept 21), Hooke (Oct 8)",
+    "resourceTeacher": "Herson N. Alamo, Teacher VI",
+    "worksheetPdf": "",
+    "activity1": {
+      "number": "1",
+      "title": "Observing Learner Behavior and Motivation",
+      "learnersObserved": {
+        "title": "Learners observed",
+        "gradeSection": "Grade 8 — Hooke",
+        "rows": [
+          {
+            "code": "A1",
+            "group": "Active learner",
+            "description": "Reads/watches documentaries (Atom Araullo, Kara David); structured home study routine"
+          },
+          {
+            "code": "A2",
+            "group": "Active learner",
+            "age": "13",
+            "gender": "F",
+            "description": "Draws, writes, cosplays; celebrates achievements with parents"
+          },
+          {
+            "code": "H1",
+            "group": "Hesitant learner",
+            "age": "13",
+            "gender": "Male",
+            "description": "Writes privately in a journal rather than seeking others out; answered \"Nothing\" to how they celebrate achievement"
+          },
+          {
+            "code": "H2",
+            "group": "Hesitant learner",
+            "description": "Brief, low-elaboration answers throughout"
+          }
+        ]
+      },
+      "interviewGuide": {
+        "title": "Interview Guide to the Learners",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "What are your interests?",
+            "answer": "Interests split along a creative/academic-leisure line rather than by active/hesitant status. A1 and H1 both lean toward creative-documentary pursuits — A1 watches documentaries (Atom Araullo, Kara David), H1 draws maps and writes literary texts. A2 and H2 lean toward sensory/recreational interests — A2 through drawing, music, sports, and cosplay; H2 through music, food, and sleep. Notably, interest type doesn't track with classroom participation level — both an active and a hesitant learner fall on each side.",
+            "display": "expander"
+          },
+          {
+            "n": 2,
+            "prompt": "Do you have study time at home?",
+            "answer": "All four report having study time, but with different structure. A1 and H2 keep a fixed or near-daily routine (A1: after school and weekends until midnight; H1: \"often\"). A2 is the outlier — study time is conditional on an upcoming test rather than routine. H2 confirms simply, without elaboration.",
+            "display": "prose"
+          },
+          {
+            "n": 3,
+            "prompt": "Do you have a nook with books or other learning materials at home? Which place at home do you study?",
+            "answer": "All four have a dedicated or semi-dedicated study space, though quality varies. A1 and H1 both describe deliberately organized spaces — a full study room (A1) and a desk placed adjacent to the living room (H1). A2 has books but no nook, studying in her room by default. H2 has materials (science books) and a named \"study area,\" landing in between.",
+            "display": "prose"
+          },
+          {
+            "n": 4,
+            "prompt": "What do you do when you feel down or have a problem? What do you do to meet your emotional needs?",
+            "answer": "This is where the active/hesitant split shows up most clearly. The two active learners (A1, A2) both cope through outward distraction — A1 watches funny or animal videos, A2 takes a break with her own interests before problem-solving. The two hesitant learners (H1, H2) both default to internal or solitary processing — H1 writes privately in a journal or thinks through \"logics & philosophy\"; H2 either talks to someone trusted or simply keeps problems to himself. Solitary coping as a first instinct is a shared trait across both hesitant learners.",
+            "display": "expander",
+            "pullquote": "Solitary coping as a first instinct is a shared trait across both hesitant learners."
+          },
+          {
+            "n": 5,
+            "prompt": "What do you do when you achieve something at school or do something good?",
+            "answer": "Active learners externalize achievement — A1 posts online or celebrates with family over a meal; A2 tells her parents directly and celebrates with them. Hesitant learners do not: H2 rewards himself privately with no social component, and H1's answer is simply \"Nothing\" — no celebration ritual at all, the starkest single data point across all four interviews.",
+            "display": "expander"
+          },
+          {
+            "n": 6,
+            "prompt": "How do your parents discipline you? Do you have house rules?",
+            "answer": "Discipline style tracks closely with active/hesitant status here too. Both active learners describe explanation-based discipline without rigid rule structures — A1's parents \"state what I did wrongly and correct it by setting examples,\" A2's parents scold but forgive, with no formal house rules. Both hesitant learners describe more directive households — H2 has a single compliance rule (\"Listen & Follow\"), and H1's household uses verbal discipline that is \"seldom physical, but used nonetheless,\" alongside confirmed house rules.",
+            "display": "expander"
+          },
+          {
+            "n": 7,
+            "prompt": "How do they monitor your performance in school? How do they motivate you?",
+            "answer": "Active learners describe low-pressure, trust-based monitoring — A1's parents don't pressure her, trusting her own intellect; A2's parents don't monitor closely since she self-reports, and they comfort rather than punish low scores. Hesitant learners describe monitoring as external and less collaborative — H2's parents ask about performance but motivate transactionally (\"promise to give me my wants\"); H1's parents \"assume\" from his grades and activities and direct him accordingly, and when asked how they motivate him, H1 responds \"I am not aware\" — the clearest instance across all four interviews of a learner lacking visibility into his own support structure.",
+            "display": "expander"
+          },
+          {
+            "n": 8,
+            "prompt": "What makes you love going to school? Do you have difficulty in any subjects? What is it?",
+            "answer": "All four identify a positive draw to school, but the source differs. A1 and A2 both cite the social dimension — friends — as mattering as much as or more than academics; A2 names math as her specific difficulty. H2 cites \"discovering new things\" and also names math as a difficulty. H1 cites a related but distinct reason — access to things unavailable at home, plus the harder-to-articulate pull of \"inspiration\" — and names Filipino and Values Education, not math, as his difficulty.",
+            "display": "expander"
+          }
+        ]
+      },
+      "answer": {
+        "title": "Answer the following question:",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "Based on the interview, what home environment factors do you think contribute to the motivation and behavior of the learner that affect his/her learning? Briefly discuss the factors you have cited.",
+            "answer": "A common thread becomes apparent across the students I have identified as \"active\" and \"inactive\" in the classroom — and it hinges primarily on how communication and autonomy are handled at home. A1 and A2, the more active students observed, come from homes where achievement is shared and celebrated. A1 shares that she feels proud of her successes and posts them on social media, whereas A2 tells her parents directly and celebrates together. In terms of discipline, correction comes as an avenue for explaining rationally why certain behaviors are unideal — as opposed to a punitive measure, or something imposed. A1 shares that her parents simply sit down and tell her exactly what she did wrong, correcting it by setting examples. A2's parents scold but immediately forgive, and no explicit, rigid house rules are established in the household. But perhaps the most telling difference between the pair is where academic motivation to succeed actualizes — in their case, it comes from a place of trust among themselves and with their parents, rather than pressure. As A1 puts it, her parents \"trust my intellect and motivate me by not pressuring me\"; A2, on the other hand, reveals that when she underperforms in class, her parents console her and resist an almost-invasive monitoring attitude toward her academics. In this sense, both students' home environments recognize, respect, and encourage their autonomy — they are given the opportunity to direct their own learning without any overt or covert threat.\n\nNoticeably, H1 and H2, identified as the less active in school, deviate from the conditions and characteristics discussed above. An overarching mechanism observed among the two is a tendency to default to solitary behavior regulation. H1 writes in his journal to process, or to \"think about philosophy and logic\"; H2, meanwhile, confides in a trusted peer or simply \"keeps it to myself.\" Successes, not limited to academic ones, are not necessarily a point of celebration to be shared with others — contrasting with A1 and A2. H1 simply states \"nothing,\" and H2 celebrates regardless, but privately, rather than sharing the moment. Discipline is much more pronounced in both households. For instance, per H1, a strict, singular rule (\"listen and follow\") exists in their house. For H2, rules are transactional (\"they promise to give me what I want\") rather than relational. H1's situation shows this most clearly; he says his parents \"assume from my grades and works and command me to do something they thought of,\" and when asked how they motivate him, his answer is \"I am not aware.\" This illustrates a household in which communication and rule-enforcing exist on a one-way street, where ultimately the student is left to wonder why decisions are made.\n\nThe interviews reveal a somewhat surprising conclusion: the factors that influence student motivation and behavior affecting their learning rest not on resources or having a dedicated study space — all four interviewees were adequately provided for in this regard — but rather on the style of involvement itself. Homes whose environment is founded on mutual trust, respect for autonomy, and clear communication possibly mediate students toward better participation and perspective inside the classroom. On the contrary, homes built around command, assumption, or transaction appear to produce heavily solitary behaviors among students when it comes to self-regulation — participation also becomes more guarded. This underscores the value of the cold-calling pattern I observed, as it helps nudge these \"inactive\" students to participate, incentivizing them to do so when a structure is introduced, rather than relying on their own volition.",
+            "display": "expander",
+            "pullquote": "Homes whose environment is founded on mutual trust, respect for autonomy, and clear communication possibly mediate students toward better participation and perspective inside the classroom."
+          }
+        ]
+      }
+    },
+    "activity2": {
+      "number": "2",
+      "title": "Teacher-guided activities/practices that address learners' gender, needs, strengths, interests, and experiences",
+      "note": "(Individual Activity)",
+      "classObservation": {
+        "title": "Class Observation",
+        "guideTitle": "An Observation Guide for the Learners' Behavior and Motivation",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "How would you describe the interaction in the classroom? Do the students interact with one another and with the teacher?",
+            "answer": "Playful and bantering, but respectful. The teacher jokes with students by name, references shared pop-culture touchpoints (e.g., Coco Martin, K-pop), and the room stays lighthearted even mid-lesson rather than tense or strictly formal.",
+            "display": "prose"
+          },
+          {
+            "n": 2,
+            "prompt": "Observe the learners seated in front and at the back of the classroom. How do they behave and interact? Were those seated in front more active than those seated at the back?",
+            "answer": "There is no observable difference in participation or attention between students seated in front and those seated at the back. Both groups interact well with one another and behave appropriately, and even students at the back stay attentive to what the teacher is saying — the room's acoustics hold up well, and the teacher actively engages students across the room rather than letting focus concentrate on a single row or section.",
+            "display": "expander"
+          },
+          {
+            "n": 3,
+            "prompt": "During the teaching-learning process, how would you describe the relationship among the learners? Do they cooperate with one another, or do they compete instead?",
+            "answer": "Collaborative rather than competitive — observed clearly in the synonym-upgrade activity, where students built on each other's word suggestions as a shared, cumulative exercise rather than racing to \"win\" with the best answer.",
+            "display": "prose"
+          },
+          {
+            "n": 4,
+            "prompt": "Who among the pupils actively participates? Do some of them ask for most help?",
+            "answer": "Participation is broad rather than concentrated among a few vocal students, largely because the teacher uses index-card cold-calling to draw names at random rather than relying on volunteers — a deliberate structure for distributing turns fairly.",
+            "display": "prose"
+          },
+          {
+            "n": 5,
+            "prompt": "What transpires when the teacher asks questions to the class? Do the pupils participate actively? What happens when a pupil cannot answer the question? Do others raise their hands to answer, or do they help their classmates?",
+            "answer": "Students respond eagerly when called on. Correct answers get immediate verbal affirmation; when an answer is partial or needs more depth, the teacher follows up with a HOTS \"why\" question rather than simply moving on or supplying the answer herself.",
+            "display": "prose"
+          },
+          {
+            "n": 6,
+            "prompt": "What encourages them to participate or perform? What diminishes their enthusiasm for participating/performing?",
+            "answer": "Humor, code-switching (Bikol-Legazpi/Filipino/English), and relatable references clearly encourage participation. Nothing diminishing enthusiasm has been directly observed yet.",
+            "display": "prose"
+          },
+          {
+            "n": 7,
+            "prompt": "Describe learner behavior and motivation based on what you have observed.",
+            "answer": "Overall, students read as engaged and comfortable, in a classroom culture built around humor and low-stakes participation rather than fear of being wrong.",
+            "display": "prose"
+          }
+        ]
+      },
+      "teacherInterview": {
+        "title": "Interview with a Teacher",
+        "profile": {
+          "resourceTeacher": "Herson N. Alamo, Teacher VI",
+          "school": "Legazpi City Science High School",
+          "gradeLevelSubject": "English 8",
+          "dateOfInterview": "October 12, 2026"
+        },
+        "attribution": "full",
+        "parts": [
+          {
+            "heading": "Part 1 — Principles & Practices on Learner Behavior and Motivation",
+            "questions": [
+              {
+                "n": 1,
+                "prompt": "What principles or practices do you follow when addressing your students' behavior in class?",
+                "answer": "As a teacher, I try to be firm but understanding. When a student misbehaves, I do not immediately judge them because I believe there may be a reason behind their actions. I talk to them, remind them of our classroom rules, and help them understand the consequences of their choices. I always tell myself that I am not just teaching English; I am also helping shape their character.",
+                "display": "expander",
+                "pullquote": "I am not just teaching English; I am also helping shape their character."
+              },
+              {
+                "n": 2,
+                "prompt": "How do you motivate your students to participate and perform well?",
+                "answer": "I encourage my students by recognizing their efforts, even the small ones. I know that not everyone is confident enough to speak up or answer questions, so I try to make my classroom a place where they feel comfortable making mistakes and learning from them. I always remind them that they do not have to get everything right the first time. What matters is that they try and keep improving.",
+                "display": "expander",
+                "pullquote": "What matters is that they try and keep improving."
+              },
+              {
+                "n": 3,
+                "prompt": "Have you noticed differences in how students interact with you or with each other outside the classroom, compared to inside it? Could you describe this?",
+                "answer": "Yes, I notice that some students who are quiet inside the classroom become more talkative and comfortable when we meet outside. They are more open to sharing stories and joking around. I enjoy those moments because I get to see another side of them. It also helps me understand my students better and reminds me that there is more to each student than what I see during class discussions.",
+                "display": "expander",
+                "pullquote": "there is more to each student than what I see during class discussions."
+              }
+            ]
+          },
+          {
+            "heading": "Part 2 — Impact of Individual Differences",
+            "questions": [
+              {
+                "n": 4,
+                "prompt": "How do you address the diverse needs, backgrounds, or personalities of your students in your teaching?",
+                "answer": "I always remind myself that my students are different from one another. Some learn quickly, while others need more time and guidance. So, I try to vary my activities, give additional help when needed, and provide opportunities for different students to shine. I may not always be able to meet every need perfectly, but I do my best to make sure that no student feels left behind.",
+                "display": "expander",
+                "pullquote": "I do my best to make sure that no student feels left behind."
+              },
+              {
+                "n": 5,
+                "prompt": "In your experience, how do individual differences among learners (e.g., personality, home environment, learning pace) affect their behavior and motivation in class?",
+                "answer": "I have observed that a student's behavior in class is sometimes influenced by what they experience outside school. Some are confident and active, while others are quiet or easily discouraged. Some also need more time to learn than their classmates. This reminds me not to compare students because I may not know what they are going through. As a teacher, I need to understand them before I can effectively help them.",
+                "display": "expander",
+                "pullquote": "I need to understand them before I can effectively help them."
+              },
+              {
+                "n": 6,
+                "prompt": "Do you adjust your approach for students who seem less motivated or more hesitant to participate? If so, how?",
+                "answer": "Yes. I try to encourage them without putting too much pressure on them. Sometimes, I start by asking simpler questions or giving them opportunities to work with classmates they are comfortable with. I also talk to them when necessary to understand what makes participation difficult for them. I believe that a little patience and encouragement can help a student slowly gain confidence.",
+                "display": "expander",
+                "pullquote": "a little patience and encouragement can help a student slowly gain confidence."
+              }
+            ]
+          }
+        ],
+        "practicesTable": {
+          "title": "Teacher-guided practices",
+          "instruction": "How do you demonstrate the following teacher-guided practice in your class? Complete the table below.",
+          "columns": [
+            {
+              "key": "practice",
+              "label": "Teacher-guided activities/practices that address learners' gender, needs, strengths, interests, and experiences."
+            },
+            {
+              "key": "illustration",
+              "label": "My illustrations of practice:"
+            }
+          ],
+          "rows": [
+            {
+              "practice": "1. Using gender-fair language in the classroom.",
+              "illustration": "The teacher's own example sentences alternate consistently between \"the boy\" and \"the girl\" rather than defaulting to one gender, and a student's revised paragraph explicitly names \"the boys and the girls\" together rather than a generic \"students.\""
+            },
+            {
+              "practice": "2. Providing equal opportunities for learners regardless of gender.",
+              "illustration": "Index-card cold-calling distributes turns fairly across the whole class rather than relying on volunteers, who tend to skew toward more outspoken students."
+            },
+            {
+              "practice": "3. Taking measures to prevent bullying.",
+              "illustration": "Not directly observed in this classroom session — the school's bulletin board (Ep. 2 note) displays DepEd's Anti-Bullying Guidelines and a QR code for reporting, but that's a schoolwide measure, not something specific to this teacher's classroom practice."
+            },
+            {
+              "practice": "4. Responding to learners' emotional needs.",
+              "illustration": "Not observed"
+            },
+            {
+              "practice": "5. Encouraging the learners' appropriate interests.",
+              "illustration": "Teacher draws on references students actually relate to — Coco Martin, K-pop/\"Gangnam\" style, local slang — to keep the lesson engaging on their own terms."
+            },
+            {
+              "practice": "6. Providing opportunities and activities that enhance learners' strengths.",
+              "illustration": "The paragraph-revision activity has multiple students read their own individually reworked versions aloud, letting each showcase their own writing choices rather than converging on one \"correct\" answer."
+            },
+            {
+              "practice": "7. Relating lessons and activities to the learners' personal experiences.",
+              "illustration": "Teacher uses everyday, lived scenarios (going to a birthday party, waiting for someone outside, elementary memories of writing \"how to cook rice\") to teach diction/style."
+            }
+          ]
+        }
+      },
+      "answer": {
+        "title": "Answer the following questions:",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "From the class observation you have done, how did the teacher address diversity in learner behavior and motivation?",
+            "answer": "The teacher addresses diversity through structural accommodations rather than individualized ones. Regardless of a student's gender, knowledge level, or background, index-card cold-calling ensures every student has the chance to participate — so students who might otherwise stay inactive, simply waiting for an opening, are given one. Gender representation is also made explicit and normalized through the teacher's use of gender-fair phrasing in example sentences — modern, inclusive pronoun use woven naturally into instruction rather than treated as exceptional. To tap into students' actual social contexts, the teacher draws on relatable cultural references to keep varied interests engaged, and lets multiple students share their own individually reworked paragraphs rather than converging on a single \"correct\" version.",
+            "display": "expander",
+            "pullquote": "index-card cold-calling ensures every student has the chance to participate"
+          },
+          {
+            "n": 2,
+            "prompt": "As a soon-to-be teacher in the near future, what kind of teaching and learning process will you have in your classroom considering learners' diversity?",
+            "answer": "I want to build a diversity-responsive classroom into its structure, not just my intentions. The way my cooperating teacher used cold-calling to randomly call on students is something I want to carry forward — it removes reliance on remembering to call on quieter students, and it builds in the awareness that content should flex toward what my specific students actually relate to, rather than a fixed curriculum voice.",
+            "display": "expander",
+            "pullquote": "it removes reliance on remembering to call on quieter students"
+          },
+          {
+            "n": 3,
+            "prompt": "Reflect on the impact of individual differences and inclusivity on learners' interaction, behaviour and motivation.",
+            "answer": "One thing I've realized from observation is that individual differences aren't always overt — more often, it's the covert differences teachers really need to stay aware of. These differences shape not just what students need, but how visibly they need it. Some manifest explicitly, like an eager volunteer; others stay invisible until a teacher builds structures — like cold-calling — that bring them to the surface. In this sense, inclusivity isn't a single decision to accommodate. It's the accumulation of small structural choices that, taken together, produce a domino effect — keeping the classroom from defaulting to whoever is loudest.",
+            "display": "expander",
+            "pullquote": "It's the accumulation of small structural choices that, taken together, produce a domino effect — keeping the classroom from defaulting to whoever is loudest."
+          }
+        ]
+      }
+    }
+  }
+}

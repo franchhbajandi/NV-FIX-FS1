@@ -1,0 +1,162 @@
+{
+  "_note": "VERBATIM client content. Do not edit, summarize, reorder, or correct any text value. Paragraph breaks inside 'answer' are marked with \\n\\n and must render as separate paragraphs. 'themeQuote' and 'pullquote' values are exact excerpts of the client's own text and are display hints only; full answers always render. Empty descriptions on NA rows are intentional.",
+  "episode": {
+    "number": "02",
+    "title": "The Learning Environment",
+    "accent": "construction",
+    "school": "Legazpi City Science High School",
+    "date": "September 21",
+    "timeObserved": "9:00 AM to 12:15 NN",
+    "gradeSections": "Grade 8 — Linnaeus, Brown, Hooke",
+    "themeQuote": "One that responds to physical, social, and cognitive needs together, so students can focus on the learning process itself rather than being pulled toward external factors.",
+    "worksheetPdf": "",
+
+    "classroomQuestions": [
+      {
+        "n": 1,
+        "prompt": "Look at the walls of the classroom. What are posted? What heroes, religious figures, lessons, visual aids, and announcements do you see posted?",
+        "answer": "Linnaeus keeps its walls largely clean and bare, with religious images found centered in the room. Its bulletin board, found at the back, displays student profiles, class officers, infographics on the school's Portable Electronic Device Policy, DepEd's Anti-Bullying Guidelines, and a QR code for reporting bullying and misconduct, along with the school hymn, the Bicol Regional Hymn, and \"Pilipinas Kong Mahal.\" Information is kept minimal so it isn't overwhelming to the viewer. Brown displays a religious image of Mother Mary and the Baby Jesus, though its own information board is empty.",
+        "display": "expander"
+      },
+      {
+        "n": 2,
+        "prompt": "Examine how the furniture is arranged. Where is the teacher's table located? How are the tables and chairs/desks arranged?",
+        "answer": "The teacher's table is located at the center of the classroom, directly facing the students and positioned in front of the whiteboard/TV so it doesn't obstruct student sightlines. It's devoid of decor and includes a container for students' electronic devices, surrendered during class hours. Desks are arranged in vertical rows following a 2×5 | 3×5 | 2×5 pattern.",
+        "display": "expander"
+      },
+      {
+        "n": 3,
+        "prompt": "What learning materials/equipment are present?",
+        "answer": "Learning materials usually consist of teacher-prepared PowerPoint presentations cast on the television, viewable clearly from any seat. Learners' resource books are procured for each student and kept under their desks. Equipment present includes a whiteboard, water dispenser, air conditioners, ceiling fans, and an attendance counter.",
+        "display": "expander"
+      },
+      {
+        "n": 4,
+        "prompt": "Observe the students. How many are occupying one room?",
+        "answer": "Typically 30–35 students per room.",
+        "display": "prose"
+      },
+      {
+        "n": 5,
+        "prompt": "Is the room well-lighted and well-ventilated?",
+        "answer": "Yes — well-lit (4 bulbs in Linnaeus) and well-ventilated via a combination of air conditioning and ceiling fans.",
+        "display": "prose"
+      }
+    ],
+
+    "classroomMatrix": {
+      "title": "Classroom Facilities Matrix",
+      "columns": [
+        { "key": "item", "label": "Item" },
+        { "key": "description", "label": "Description" }
+      ],
+      "rows": [
+        { "item": "Bulletin Board", "description": "Found at the back of the room. Information is kept minimal, so it isn't overwhelming to the viewer. In good condition. Contents include student profiles, class officers, infographics on the school's Portable Electronic Device Policy, DepEd's Anti-Bullying Guidelines, a QR code for reporting bullying/misconduct, the school hymn, the Bicol Regional Hymn, and \"Pilipinas Kong Mahal.\"", "photos": ["ep-02-bulletin-board.webp"] },
+        { "item": "Teacher's Table", "description": "Located at the center of the classroom, directly facing the students, in front of the whiteboard. Devoid of decor; includes a container for students' electronic devices, surrendered during class hours.", "photos": [] },
+        { "item": "Learners' Desk/Chairs", "description": "Excellent condition — durable and spacious enough for students. Procured 1:1, so students don't share desk space. Evidence of vandalism is virtually non-existent; desks are regularly cleaned by students. Names printed on paper are placed on the top right corner of each desk. Arranged in vertical rows (2×5, 3×5, 2×5).", "photos": ["ep-02-learners-desk-chairs.webp", "ep-02-learners-desk-chairs-2.webp"] },
+        { "item": "Whiteboard", "description": "Excellent size, providing great visibility for students no matter where they're seated.", "photos": ["ep-02-whiteboard.webp"] },
+        { "item": "Learners' Resources/Books", "description": "Procured for each student and in relatively good condition. Usually found under their desks.", "photos": [] },
+        { "item": "Wall Displays", "description": "In some rooms, images of religious figures can be found, located at the center of the room.", "photos": ["ep-02-wall-displays.webp"] },
+        { "item": "Learning Materials", "description": "Usually teacher-prepared PowerPoint presentations cast on the television, viewable excellently from any student's seat.", "photos": ["ep-02-learning-materials.webp"] },
+        { "item": "Water Dispenser", "description": "Found at the back of the classroom, usually beside the bulletin board. Maintained regularly, with water refills kept beside it.", "photos": ["ep-02-water-dispenser.webp"] },
+        { "item": "Air Conditioners", "description": "Installed in pairs and in great condition, situated on the windows, providing excellent ventilation for everyone in the room.", "photos": ["ep-02-air-conditioners.webp"] },
+        { "item": "Ceiling Fans", "description": "Usually four per room, located overhead of the students.", "photos": ["ep-02-ceiling-fan.webp"] },
+        { "item": "Attendance Counter", "description": "Updated daily, near the entrance.", "photos": [] }
+      ]
+    },
+
+    "schoolFacilities": {
+      "title": "School Facilities Checklist",
+      "statusKey": "A = available, NA = not available. Counts must be computed from data, never hardcoded.",
+      "rows": [
+        { "facility": "Office of the Principal", "status": "A", "description": "Formal, accessible, and organized", "photos": ["ep-02-principals-office-1.webp"] },
+        { "facility": "Library", "status": "A", "description": "Quiet, orderly, and conducive to learning", "photos": ["ep-02-library-01.webp", "ep-02-library-02.webp"] },
+        { "facility": "Counseling Room", "status": "NA", "description": "", "photos": [] },
+        { "facility": "Canteen / Cafeteria", "status": "A", "description": "Functional, compact, and secured with counter grilles", "photos": ["ep-02-canteen-1.webp", "ep-02-canteen-2.webp"] },
+        { "facility": "Medical Clinic", "status": "A", "description": "Basic first-aid setup present, but the room was occupied and appeared disorganized at the time of observation", "photos": ["ep-02-medical-clinic.webp"] },
+        { "facility": "Audio Visual Room", "status": "NA", "description": "", "photos": [] },
+        { "facility": "Reading Center", "status": "A", "description": "Cozy, quiet, and accessible to students", "photos": [] },
+        { "facility": "Speech Laboratory", "status": "NA", "description": "Not available — language classes held in regular rooms", "photos": [] },
+        { "facility": "Science Laboratory", "status": "A", "description": "Spacious, well-ventilated, equipped with large activity tables and TV display", "photos": ["ep-02-science-laboratory.webp"] },
+        { "facility": "Gymnasium", "status": "A", "description": "Spacious, open-air, and multipurpose", "photos": ["ep-02-gymnasium-01.webp"] },
+        { "facility": "Auditorium", "status": "NA", "description": "Not available — school uses the multi-purpose gym/stage", "photos": [] },
+        { "facility": "Home Economics Room", "status": "NA", "description": "Not available", "photos": [] },
+        { "facility": "Industrial Workshop", "status": "NA", "description": "Not available / integrated into general TLE areas", "photos": [] },
+        { "facility": "PTA Office", "status": "NA", "description": "Not available", "photos": [] },
+        { "facility": "Comfort Room (Boys)", "status": "A", "description": "Functional and tiled, though water supply was noticeably scarce during observation", "photos": [] },
+        { "facility": "Comfort Room (Girls)", "status": "A", "description": "Functional and tiled with basic sanitary amenities, though water supply was scarce during observation", "photos": ["ep-02-comfort-room-girls-1.webp", "ep-02-comfort-room-girls-02.webp"] },
+        { "facility": "Computer Room / ICT Room", "status": "A", "description": "Spacious, well-equipped, and ventilated with learning tech and VR units", "photos": [] },
+        { "facility": "Prayer Room / Wellness Room", "status": "NA", "description": "Not available", "photos": [] },
+        { "facility": "Handwashing Station", "status": "A", "description": "Present, tiled, and posted with proper hygiene guides, but water supply was scarce at the time of observation", "photos": ["ep-02-wash-station-1.webp", "ep-02-wash-station-2.webp"] },
+        { "facility": "Robotics / VR Innovation Area (in ICT/Lab)", "status": "A", "description": "Equipped with VR Box headgear and interactive learning peripherals", "photos": [] },
+        { "facility": "Faculty Room", "status": "A", "description": "While conducive, space is limited. Well-ventilated.", "photos": ["ep-02-faculty-room-2.webp"] }
+      ]
+    },
+
+    "reflectSchool": [
+      {
+        "n": 1,
+        "prompt": "Based on your observations, how do the observed classroom and school environments contribute to the students' learning and well-being?",
+        "answer": "In total, the teachers foster a casual classroom climate that's largely devoid of tension — though this may partly reflect that observation coincided with orientation days. There's clear rapport between teacher and students; the teacher isn't perceived as intimidating. This plays out in the actual classroom discourse too: teachers banter with students by name, crack jokes tied to local pop culture, and translanguage freely across Bikol-Legazpi, Filipino, and English to keep meaning accessible rather than sticking rigidly to English instruction — the atmosphere stays lighthearted even mid-lesson, with visible laughter and joking exchanges rather than a strictly formal register. Facilities condition-wise beat most public high schools observed elsewhere — aircon and TVs present in every room so far — though the room design itself is typical and rigid, with no decorative elements, and information boards are present but often thin on actual content. Orientation itself seems genuinely valuable here: it clarifies how grades are computed and levels expectations between students and teachers early.",
+        "display": "expander",
+        "pullquote": "There's clear rapport between teacher and students; the teacher isn't perceived as intimidating."
+      },
+      {
+        "n": 2,
+        "prompt": "What kind of a) School Campus and b) Classroom is conducive to learning?",
+        "answer": "One that responds to physical, social, and cognitive needs together, so students can focus on the learning process itself rather than being pulled toward external factors.",
+        "display": "prose"
+      },
+      {
+        "n": 3,
+        "prompt": "As a future teacher, how will you be able to achieve a school campus and classroom that are conducive to learning?",
+        "answer": "For me, achieving a conducive learning environment isn't necessarily about the budget a school hands you. The financial aspect matters, but it's not about waiting for the perfect building or the perfect budget — it's about what I personally choose to do with the room I'm currently dealing with. This isn't about being defeatist or submissive; it's about being proactive.\n\nAs I've said in my previous answers, a learning environment isn't just the physical — desks and chairs matter, but they're only a fraction of the whole. A learning environment is physical, social, and cognitive together, and I want to make sure the room I'm responsible for responds to all three. Once those parameters are in place, I fill in my part by starting with what I can personally control regardless of infrastructure: the social and the cognitive.\n\nI'm lucky enough to be observing in classrooms at Legazpi City Science High School, where each room has air conditioning and good ventilation. But when I actually enter the DepEd workforce, that may not be the case. I can't always get air conditioning or a well-stocked bulletin board — but I can decide whether my students feel safe enough to belong. Just as I observed my cooperating teacher interact with students — never as a figure of fear, never a monolith who only tells students whether they're right or wrong — I want to build that same kind of rapport. Because when students feel safe enough to realize that the four corners of a room aren't something that cages or demands compliance, but a space to try and to learn, the room stops being somewhere they're just invited to sit through, and starts being a room made for them.\n\nConcretely, that means treating the physical space as worth personalizing even with limited resources — walls that celebrate the students in them, not an empty board — and treating orientation and expectation-setting with real intention rather than going through the motions, the way I saw it done well. \"Conducive\" isn't a condition handed to you. It's something a teacher chooses to actualize, built day by day, inside whatever classroom they're given.",
+        "display": "expander",
+        "pullquote": "It's something a teacher chooses to actualize, built day by day, inside whatever classroom they're given."
+      }
+    ],
+
+    "personalIllustration": {
+      "format": "Sketch/drawing.",
+      "caption": "Hand-drawn classroom sketch, inked over an AI-generated line-art base used purely as a loose composition skeleton (no isolated/excluded figures, clustered desks instead of rigid rows, teacher at student eye-level, a dedicated reading/study nook, and a content-rich bulletin board) — directly answering Reflect Q2's point about an environment that responds to physical, social, and cognitive needs together, and correcting the \"typical and rigid, no decorative elements\" gap noted in the facilities observation.",
+      "image": "ep-02-personal-illustration.webp"
+    },
+
+    "psychosocialChecklist": {
+      "title": "Psychosocial Environment Checklist",
+      "items": [
+        { "text": "The school compound is clean, safe and secured.", "observed": true },
+        { "text": "There is a school canteen where healthy/nutritious food is provided.", "observed": true },
+        { "text": "Hand wash facilities and clean water source are available.", "observed": false },
+        { "text": "The students are protected from any forms of verbal and physical violence.", "observed": true },
+        { "text": "Seminars on Students' rights are being conducted.", "observed": true },
+        { "text": "There is a playground for students with sport facilities.", "observed": true },
+        { "text": "Teachers and parents have undergone trainings on Child Protection and basic steps on how to refer students in case of emergency.", "observed": true }
+      ]
+    },
+
+    "psychosocialReflect": [
+      {
+        "n": 1,
+        "prompt": "Is the psychosocial school environment important? Explain.",
+        "answer": "The psychosocial school environment is an often-overlooked aspect of education — unfortunate, because I'd argue it's the invisible hand guiding students toward real, lived success. It bridges the gap between the cognitive, the emotional, and the human. A positive psychosocial environment lets students learn in a space where stressors and external factors pose no distraction. Students are human beings first, carrying different backgrounds, problems, and variables — and one of the variables with the most direct impact on how much they learn, and how efficiently, is the psychosocial environment they're in.\n\nEvery child deserves a school that protects their mind and nurtures their heart. A psychosocial school environment is, in that sense, a fundamental right in modern education — because we cannot expect students to thrive academically while social and emotional factors actively hinder them. When students are wallowed in anxiety, stress, or isolation, they cannot participate wholeheartedly in learning. Creating a psychosocial environment means creating an overall positive school climate — a safety net that lets students unleash their potential without fear or judgment, potential that would otherwise stay stifled by those invisible barriers. To advocate for a healthy psychosocial environment is to fight for a place where peer relationships are built on mutual respect and mental health is prioritized over rigid conformity — and in doing so, to build a humane, compassionate education system.",
+        "display": "expander",
+        "pullquote": "the invisible hand guiding students toward real, lived success"
+      },
+      {
+        "n": 2,
+        "prompt": "Imagine that you are now a professional teacher — how do you create a psychosocial environment in your school? Explain.",
+        "answer": "The psychosocial school environment is one I will particularly focus on. Stepping into that classroom, I would champion it not just as a space for learning but as a student-centered sanctuary rooted in emotional safety, inclusion, and empowerment.\n\nFirst, I would dismantle the invisible hierarchy between teacher and student — the assumption that I am superior and they are not — and replace it with a horizontal relationship, one where we see each other as partners. Mistakes wouldn't be penalized or held against students, but celebrated as proof of growth and met with encouragement to keep trying. I would actively seek out the quietest voices in the room and make sure they feel protected, acknowledged, and included. If I can model these qualities, I hope my students become empowered to be more collaborative and open — to find ways to lift each other up and build a tight-knit community of allies rather than competitors.",
+        "display": "expander",
+        "pullquote": "I would actively seek out the quietest voices in the room and make sure they feel protected, acknowledged, and included."
+      },
+      {
+        "n": 3,
+        "prompt": "What is the impact of the psychosocial school environment on student learning outcomes? Explain.",
+        "answer": "The impact is life-changing. Change a student's environment, and you transform their entire capacity to learn.\n\nStudents face invisible adversaries teachers aren't always aware of — anxiety, a bad mood, academic stress — the things that genuinely hold them back from learning, participating, and belonging in the classroom. When teachers take it upon themselves to lessen that burden, to control what can be controlled, we lift that fog and unleash students' natural curiosity, focus, and drive to succeed.\n\nIn doing so, we cultivate an attitude toward the love of learning and growth. Students stop showing up out of fear of penalty or failure, and start showing up out of intrinsic motivation — a genuine love of discovery. That value-based, attitude-driven shift is a sustainable, lifelong change, one that leads to better outcomes far beyond the classroom.",
+        "display": "expander",
+        "pullquote": "Change a student's environment, and you transform their entire capacity to learn."
+      }
+    ]
+  }
+}

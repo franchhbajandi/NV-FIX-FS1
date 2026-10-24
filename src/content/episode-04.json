@@ -1,0 +1,322 @@
+{
+  "_note": "VERBATIM client content except the logged items in _changes. Keys starting with underscore are NOT content: never render or verify them. 'pullquote' and 'themeQuote' are exact substrings of the client's own text (display hints only). Paragraph breaks inside 'answer' are \\n\\n. Single-asterisk spans (*like this*) mean italic emphasis: render as <em>; verification compares text with the asterisks removed on both sides. gradeLevel is PENDING and hidden until filled.",
+  "_omitted": [
+    "Header placeholders (TBD) for teacher, school and grade level",
+    "Tasks or Activities checklist with progress notes",
+    "Italic note under the Activity 1 heading and the label 'Prior Knowledge / Coursework Questions' (not in the module)",
+    "'Observed?' column and its check marks; 'Present?' word values converted to present: true/false",
+    "Em-dash placeholder cells in the tables",
+    "Italic note 'All 8 preset items now have a recorded status'",
+    "Label '(not in preset list)', replaced by 'Others'",
+    "Question labels such as 'Methods Q1 —', 'Materials Q2 —', 'Q3 —'",
+    "Section headings 'Teaching Methods Observed', 'Instructional Materials', 'Lesson Plan Development', 'Reflection' replaced by the module's activity numbers and names"
+  ],
+  "_changes": [
+    "Lesson Plan Q4: removed the clause ' — you noted this explicitly in your own observation (\"this is a formative assessment\")' (a note addressed to the author, not part of the answer)",
+    "Observation sheet: teacher name and school filled from the client's other documents (Herson N. Alamo, Teacher VI; Legazpi City Science High School); client to confirm",
+    "Method names in the methods table set to the module's labels (e.g. 'Deductive Method', 'Constructivist Approach')",
+    "Materials table extra row labeled 'Others'"
+  ],
+  "episode": {
+    "number": "04",
+    "title": "Teaching Learning Process",
+    "accent": "red-pen",
+    "themeQuote": "it's having the sixth sense to acutely realize what a specific room, and its specific students, actually need.",
+    "worksheetPdf": "",
+    "activity1": {
+      "number": "1",
+      "questions": [
+        {
+          "n": 1,
+          "prompt": "Describe what teaching and learning is, based on your previous professional education subjects and your own experience.",
+          "answer": "Teaching, for me, is a two-way process. It is never just about imparting knowledge or information — it's about wanting to incur a change in mindset, and more importantly, a change in behavior: in how a person deals with things and views the world. Teaching equips minds to learn; it facilitates independence and resilience, so that students can look at life guided by principles rather than by rote instruction. To teach is to ensure an environment that is safe, sustainable, and appropriate — one that lets students learn the lesson and, just as importantly, learn about themselves. Without that, teaching collapses into dictation: producing minds that repeat without ever understanding or appreciating the process behind what they've learned.\n\nLearning, in turn, is recognizing what behavior to change, retain, or adapt — understanding what works and what doesn't. But learning is also about humility. When you learn, you aren't afraid to make mistakes, because appreciating the process is what makes the results mean something. Learning, as a process, is constant evaluation and constant improvement.",
+          "display": "expander",
+          "pullquote": "Without that, teaching collapses into dictation: producing minds that repeat without ever understanding or appreciating the process behind what they've learned."
+        },
+        {
+          "n": 2,
+          "prompt": "What is the teaching-learning process?",
+          "answer": "It is, again, a two-way street — a microcosm between teacher and students, not a space where the teacher alone holds authority over learning. Teacher and students interact, give and take, and learn from one another. The process runs on a feedback loop: intentional, purposeful, deliberate, and above all, cooperative. It takes into account everything about the learner in order to optimize growth — not just academically or cognitively, but socially, emotionally, and physically as well.",
+          "display": "expander"
+        },
+        {
+          "n": 3,
+          "prompt": "In your own perspective, describe an effective and efficient teacher.",
+          "answer": "An effective and efficient teacher is responsive and aware. They know that no two students are the same, that no two methods will work identically across a room, and that adaptation and a keen sense of awareness are imperative to creating optimal learning conditions. Such a teacher knows they don't know everything — not just about the lesson, but about their students — and takes it upon themselves to keep learning who their students are, learning more about themselves in the process. They're aware not only of what happens inside the classroom, but of who they are as teachers: how they face its daily realities and surprises. An effective and efficient teacher knows how to stand on their own feet and make do with the resources at hand — because, ultimately, they lead with a heart. Period.",
+          "display": "expander",
+          "pullquote": "An effective and efficient teacher knows how to stand on their own feet and make do with the resources at hand — because, ultimately, they lead with a heart."
+        },
+        {
+          "n": 4,
+          "prompt": "How much content knowledge and how many teaching approaches does a teacher need to be effective?",
+          "answer": "Becoming effective isn't really about how much content you know or how many strategies you can name — it's about how dedicated you are to your craft. Content can be learned. No teacher starts out knowing everything, and no single teacher has mastered every method well enough to employ it at will. What defines a teacher is character — the difference between one who goes by the book and one who goes by the heart, guided by perseverance and understanding. This isn't to discredit content knowledge or strategy awareness — those matter — but a teacher who doesn't know their students first risks employing strategies that are inefficient, even irrelevant, to their classroom's realities. To become effective is to make it your own assignment: to learn your students, what works best for your classroom, the resources available to you, and the gaps within yourself — and how to fill them.",
+          "display": "expander",
+          "pullquote": "What defines a teacher is character — the difference between one who goes by the book and one who goes by the heart, guided by perseverance and understanding."
+        },
+        {
+          "n": 5,
+          "prompt": "What is Pedagogical Knowledge (PK)? What about Pedagogical Content Knowledge (PCK)?",
+          "answer": "Pedagogical Knowledge is knowledge of how to teach — classroom management, how students learn, how to assess, how to engage a room, independent of what subject is being taught. It's the craft of teaching itself. Pedagogical Content Knowledge is narrower and, arguably, harder won: it's knowing how to teach *this specific content* to *these specific learners* — which examples land, which analogies clarify rather than confuse, where students predictably get stuck on a particular concept and how to meet them there. PK is knowing how to run a classroom. PCK is knowing how to make *this* lesson actually click for the people in front of you.",
+          "display": "expander"
+        },
+        {
+          "n": 6,
+          "prompt": "How do PK and PCK affect the teaching and learning process?",
+          "answer": "Without PK, a teacher can know their subject deeply and still fail to reach a room — content without delivery doesn't teach anyone anything. Without PCK, a teacher can be skilled at managing a classroom and still deliver a lesson that technically covers the material but never actually lands, because it isn't shaped around how students actually encounter and struggle with that specific content. Together, they're what separates someone who knows a subject from someone who can actually teach it — PK gives you the room, PCK gives you the bridge into the content itself.",
+          "display": "expander",
+          "pullquote": "PK gives you the room, PCK gives you the bridge into the content itself."
+        },
+        {
+          "n": 7,
+          "prompt": "List the different teaching approaches/strategies used by your previous teachers or professors.",
+          "answer": "Throughout my years in Bicol University, my professors have all integrated the different approaches or methods discussed in this module, specifically the constructivist approach and the project-based approach. All of it — the deductive, inductive, demonstration, problem-solving, discovery, project-based, constructivist, metacognitive, and integrative approaches — have all been integrated by my professors one way or another. This is because they've always stressed that the importance of knowing the different approaches or methods is not for the sake of awareness, but also the ability to discern when and where to implement each, and what specific goals or learning outcomes you want, so that you can efficiently and effectively achieve them. More importantly, what our professors want us to do at the end of the day is make the teaching-learning process not only engaging but also purposeful.\n\nInstead of just dictating to us what a lesson is about, they would encourage us to first see where each lesson fits into the bigger picture — which is why I'd highlight the constructivist approach specifically, as it's been the clearest pattern among the professors I've had so far at Bicol University. With the constructivist approach, our professors would have us interact with the lesson itself — meaning we take accountability to learn more about it ourselves and construct our own meaning, with the teacher guiding from the side so that we don't stray too far into the unknown.",
+          "display": "expander"
+        },
+        {
+          "n": 8,
+          "prompt": "What is the best approach in teaching to enhance students' learning?",
+          "answer": "I believe the best approach is student-centered and process-oriented. In an age where information can be generated in seconds, students risk missing the point of school altogether — it was never just about memorizing facts, but understanding the processes that make them lifelong, independent learners. That's why project-based approaches and student-centered discussion feel indispensable today: they help students see why a process matters and foster genuine appreciation for it, so they come to depend not on whatever tool is available online, but on the skills they've built for themselves throughout their years in school.",
+          "display": "expander",
+          "pullquote": "it was never just about memorizing facts, but understanding the processes that make them lifelong, independent learners."
+        },
+        {
+          "n": 9,
+          "prompt": "What are instructional materials? How do they matter in the teaching and learning process?",
+          "answer": "Instructional materials are the tools — physical, visual, or digital — that a teacher uses to deliver, reinforce, or clarify a lesson: textbooks, visual aids, realia, slides, even something as simple as scratch paper for an activity. They matter because content doesn't transmit on its own; it needs a vehicle. In the sessions observed, this showed up clearly in small, almost invisible ways — a clean, uncluttered PowerPoint kept students' attention on the content rather than competing with visual noise, and something as low-tech as index cards turned into a tool for fairness and real-time assessment, not just decoration. Good instructional materials don't just support a lesson; they can actively shape how equitably and how deeply that lesson reaches a room.",
+          "display": "expander"
+        },
+        {
+          "n": 10,
+          "prompt": "How do you plan a lesson? What are the main parts, characteristics, and elements of an effective lesson plan?",
+          "answer": "A lesson plan, at minimum, needs clear objectives, a procedure that gets you there, the materials the procedure depends on, and a way to check whether the objective was actually met — assessment and closure, not just content delivered and time's up. An effective plan is coherent: every part should serve the objective, not just exist alongside it.\n\nWhat I'd want to integrate from what was observed is the shape of the lesson arc itself — recall, then prompt, then guided practice, then an applied task, then peer sharing, then a model-answer comparison, then a transition. It's a structure that hands students a little more responsibility at each stage rather than keeping them passive until a single activity at the end. What I'd want to improve on, in my own planning, is building in a deliberate closing loop the way that arc does — ending not just on \"time's up,\" but on something that lets students see their own work measured against a standard, the way the model-answer reveal did. A plan is only as effective as its ending; starting strong and trailing off is still an incomplete lesson.",
+          "display": "expander"
+        }
+      ]
+    },
+    "activity2": {
+      "number": "2",
+      "title": "Demonstration Teaching Observation",
+      "observationSheet": {
+        "nameOfTeacher": "Herson N. Alamo, Teacher VI",
+        "school": "Legazpi City Science High School",
+        "date": "September 22",
+        "sessions": "Mendel (journalism lesson); Pasteur (diction/style lesson)",
+        "gradeLevel": {
+          "value": "8",
+          "status": "COMPLETE"
+        },
+        "subjectArea": "English"
+      },
+      "activity2_1": {
+        "number": "2-1",
+        "title": "Teaching Methods and Approaches",
+        "methodsTable": {
+          "columns": [
+            {
+              "key": "method",
+              "label": "Approach/Method"
+            },
+            {
+              "key": "description",
+              "label": "Description of Teaching Behavior that shows the use of the Teaching Approach/Method (What the teacher did as he/she used the approach/method)"
+            }
+          ],
+          "rows": [
+            {
+              "method": "Deductive Method",
+              "description": "Not observed"
+            },
+            {
+              "method": "Inductive Method",
+              "description": "Teacher asks \"what kind of tool is this?\" before students name the concept (linguistic features), building the term from the example up."
+            },
+            {
+              "method": "Demonstration Method",
+              "description": "Teacher models the \"upgrade this word\" reveal and the fully revised paragraph at the end."
+            },
+            {
+              "method": "Problem-solving",
+              "description": "Timed messy-paragraph revision is a straightforward fix-it task."
+            },
+            {
+              "method": "Discovery",
+              "description": "Students generate their own word substitutions/upgrades rather than being handed them."
+            },
+            {
+              "method": "Project-based",
+              "description": "Not observed"
+            },
+            {
+              "method": "Constructivist Approach",
+              "description": "Opens with recall of prior lesson, ties new content to students' own references (pop culture, local slang)."
+            },
+            {
+              "method": "Metacognitive Approach",
+              "description": "Teacher's \"why is that?\" follow-ups push students to justify their own reasoning."
+            },
+            {
+              "method": "Integrative Approach",
+              "description": "Translanguaging across Bikol-Legazpi, Filipino, and English to keep meaning accessible."
+            },
+            {
+              "method": "Others",
+              "description": "Recitation-style cold-calling via index cards."
+            }
+          ]
+        },
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "Describe the teaching methodology used by the teacher in the demonstration teaching.",
+            "answer": "The teacher follows a clear, deliberate sequence rather than jumping straight into new content. The lesson opens with a recap of the previous day's material, done through direct recall questioning rather than simply restating it. From there, the teacher primes participation by prompting with illustration — giving students a concrete example or scenario before asking them to respond, essentially luring them into answering rather than demanding it outright. This leads into a guided synonym-upgrade drill, where students are asked to replace ordinary words with more precise or appropriate ones, followed by a timed paragraph-revision task that has them apply the same skill to a fuller piece of writing. Several students then share their revised work aloud, and the teacher closes the loop by revealing a model answer for comparison before transitioning to the next topic. The overall shape is recall, prime, guide, apply, share, model, transition — a methodology built around scaffolding rather than lecture.",
+            "display": "expander",
+            "pullquote": "recall, prime, guide, apply, share, model, transition"
+          },
+          {
+            "n": 2,
+            "prompt": "Identify the teaching approaches the teacher employs to enhance the students' learning.",
+            "answer": "Several distinct approaches stack together in this lesson. First, index-card cold-calling is used deliberately to spread participation across the whole class rather than letting the same few volunteers dominate — this is a fairness mechanism as much as an engagement one. Second, the teacher gives immediate verbal affirmation whenever a student answers correctly, which reinforces the response on the spot rather than waiting to evaluate later. Third, the teacher follows up incomplete or partial answers with HOTS (\"why is that?\") questions, pushing students to process and justify their own reasoning instead of accepting a surface-level answer. Fourth, translanguaging is used throughout — shifting between Bikol-Legazpi, Filipino, and English as needed to keep meaning accessible rather than forcing everything into a single register. Finally, humor and relatable references (pop culture, local slang) are woven into the delivery to keep the class genuinely engaged rather than simply attentive.",
+            "display": "expander"
+          },
+          {
+            "n": 3,
+            "prompt": "How did the teaching and learning process take place considering the different approaches and principles?",
+            "answer": "Taken together, the process follows a fairly clean gradual-release arc: the teacher first activates prior knowledge through recall, then guides students through practice with heavy scaffolding (the synonym drill), then hands the task over more fully in the applied writing exercise, then opens the floor for peer sharing, and finally closes by comparing student output against a model answer before previewing what comes next. Each stage hands a little more responsibility to the students than the one before it, which is consistent with how the different approaches and principles noted above — cold-calling, affirmation, HOTS questioning, translanguaging — actually get put into practice rather than staying theoretical.",
+            "display": "expander"
+          },
+          {
+            "n": 4,
+            "prompt": "Which approaches/methods are interactive? Which are less attractive?",
+            "answer": "The synonym drill and paragraph-sharing activity are clearly interactive — broad participation, visible banter. Most of the methods employed during observation served their purpose efficiently, but if pressed to identify a less attractive stretch, the extended explanation segments — walking through diction examples one by one before the drill began — likely carried lower energy than the drill and sharing activities that followed, simply by contrast. Explanation is inherently more passive than the applied tasks surrounding it.",
+            "display": "expander"
+          }
+        ]
+      },
+      "activity2_2": {
+        "number": "2-2",
+        "title": "Use of Instructional Materials",
+        "materialsTable": {
+          "columns": [
+            {
+              "key": "material",
+              "label": "Instructional Materials/Media"
+            },
+            {
+              "key": "present",
+              "label": "Present?"
+            },
+            {
+              "key": "notes",
+              "label": "Notes"
+            }
+          ],
+          "rows": [
+            {
+              "material": "Realia",
+              "present": false
+            },
+            {
+              "material": "Pictures/posters/charts/etc.",
+              "present": true
+            },
+            {
+              "material": "Textbooks/workbooks/etc.",
+              "present": false
+            },
+            {
+              "material": "Blackboard/bulletin/whiteboard",
+              "present": true
+            },
+            {
+              "material": "Projectors",
+              "present": true,
+              "notes": "PowerPoint presentation cast on the television"
+            },
+            {
+              "material": "Computers",
+              "present": true,
+              "notes": "PowerPoint, Arial font, described as \"clear and not congested\""
+            },
+            {
+              "material": "Audio-visual/interactive materials",
+              "present": false
+            },
+            {
+              "material": "Models",
+              "present": false
+            },
+            {
+              "material": "Others",
+              "present": true,
+              "notes": "Index cards used for cold-calling; scratch paper for the writing activity"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "What instructional materials were used?",
+            "answer": "The PowerPoint presentation, set in Arial and kept visually uncluttered, served as the main visual aid, cast on the television for the whole class to see. Beyond the slides, the teacher relied on two low-tech but purposeful tools: index cards for calling on students, and scratch paper for the timed paragraph-revision activity.",
+            "display": "prose"
+          },
+          {
+            "n": 2,
+            "prompt": "Was it effective in the delivery of the lesson? Explain your answer.",
+            "answer": "Yes. The PowerPoint's clarity and lack of visual congestion meant content stayed legible and easy to follow rather than competing for attention with a cluttered slide. The index cards, meanwhile, did more than just organize the lesson — they made student selection systematic and demonstrably fair, since calling on students by draw rather than by volunteer hand-raising ensures broader participation instead of the same students answering every time. Even the scratch paper, simple as it is, was effective in that it gave the class a low-stakes space to actually practice the skill being taught rather than just discussing it abstractly.",
+            "display": "expander"
+          },
+          {
+            "n": 3,
+            "prompt": "If given the chance to choose other instructional materials, what will you use? Why?",
+            "answer": "If given the chance to choose other instructional materials, especially for a Grade 8 classroom like Hooke or Linnaeus here at Legazpi City Science High School, I would lean toward analog materials — a way to work within the institution's existing rules, especially the prohibition on electronic devices among junior high school students.\n\nBecause of that, I would use mini whiteboards (or \"show-me\" boards) and metacards or manila paper. Even though digital devices aren't allowed, these analog materials still provide high visibility. Mini whiteboards, in particular, are an excellent tool for real-time formative assessment — during the synonym-upgrade drill, for instance, students could write down another word they have in mind for a sentence I present, and I'd get an immediate read on the whole room at once rather than asking each student to stand and share individually. That saves time and ensures participation from everyone.\n\nFor the longer paragraph-revision task, manila paper would let students write their own improved versions and fixes, then immediately compare and assess how different or similar their stylistic choices are from other groups' — achieving the benefits of a shared, collaborative workspace without violating the school's device policy.",
+            "display": "expander"
+          }
+        ]
+      },
+      "activity2_3": {
+        "number": "2-3",
+        "title": "Lesson Plan Development",
+        "questions": [
+          {
+            "n": 1,
+            "prompt": "How did the resource teacher begin his/her lesson? Why do you think he/she did that?",
+            "answer": "In both sessions, the teacher opened by anchoring students in what they already knew rather than launching straight into new material. In the Mendel (journalism) session, this took the shape of an orientation-style review of grading breakdowns already covered; in the Pasteur (diction/style) session, it was direct recall questioning on the previous day's lesson on diction and communicative styles. This consistency across two different subject areas suggests it's less a one-off choice and more a deliberate habit — activating prior knowledge first so that the new lesson has something concrete to build onto, rather than sitting in isolation.",
+            "display": "expander"
+          },
+          {
+            "n": 2,
+            "prompt": "What activity did the resource teacher ask the learners to do after he/she introduced the lesson? Why do you think he/she presented that?",
+            "answer": "In the Mendel session, the follow-up activity centered on journalistic writing, with the teacher coordinating with other journalists to walk through editorial writing, using PowerPoint as the primary visual aid throughout. In the Pasteur session, the follow-through was a timed messy-paragraph revision exercise, with several students reading their own reworked versions aloud to the class afterward. In both cases, the pattern is the same: the teacher doesn't stop at explaining the concept, but immediately routes students into applying it — writing, revising, producing — rather than leaving the lesson at the level of discussion.",
+            "display": "expander"
+          },
+          {
+            "n": 3,
+            "prompt": "How was the lesson ended? Why do you think he/she did that?",
+            "answer": "Both sessions ran short on available time. The Pasteur session ended with a preview of the next topic (linguistic features) and a take-home reading assignment, while the Mendel session wrapped into a similar home-based activity. In both cases, this reads less as a planned closing strategy and more as a practical adjustment — the teacher compressing or deferring part of the lesson because the allotted class time wasn't enough to finish everything as intended.",
+            "display": "expander"
+          },
+          {
+            "n": 4,
+            "prompt": "Did you observe an assessment of learning in the teaching process? If yes, how was it done?",
+            "answer": "Yes. The index-card cold-calling system doubles as a formative assessment. Rather than a separate quiz or test, the teacher checks understanding in real time by drawing names and gauging responses on the spot, which lets him adjust or follow up (via the HOTS \"why\" questions) immediately when an answer is incomplete.",
+            "display": "prose"
+          },
+          {
+            "n": 5,
+            "prompt": "If you will make your own lesson, which activity will you adopt? Why?",
+            "answer": "If I were to make my own lesson, the activity I would adopt is my cooperating teacher's — fixing a messy paragraph under time pressure, immediately followed by a model answer and its rationalization.\n\nThis sequence bridges theoretical knowledge — the rules students just learned — with its actual practical application. Instead of simply supplying an appropriate word or synonym in isolated sentences, students now have to consider how certain word choices interact or clash with other sentences, tones, and moods, and how that affects the flow, tone, and cohesion of a complete text. And by revealing the answer immediately after students respond, they get immediate feedback that corrects faulty notions and lines of thinking before those have a chance to fossilize.",
+            "display": "expander",
+            "pullquote": "they get immediate feedback that corrects faulty notions and lines of thinking before those have a chance to fossilize."
+          }
+        ]
+      }
+    },
+    "reflections": {
+      "title": "Reflections",
+      "prompt": "Based on your observations and learning experiences, write a brief reflection of your feelings and insights about the teaching-learning process.",
+      "answer": "Observing how Mr. Alamo handled the different sections only strengthened what I already believed effective teaching is about. It isn't necessarily content mastery, nor mastering every method in the book — it's having the sixth sense to acutely realize what a specific room, and its specific students, actually need. It's not just knowing what tools are available, but knowing what they do, when and how to use them, and how to find synergy between them to streamline the teaching process.\n\nThe index cards are a good example — cliché, common, nothing fancy — but they solved a real problem: equitable participation. In every classroom, there will always be students who are active and students who are inactive but only need a slight nudge to join in. The index cards solved that better than good intentions alone could have. That's the kind of teaching I want to practice — not announcing which specific methods I'll use on a given day, but developing the underlying principle that guides me toward the small decisions that build an equitable, just, and fair classroom, without needing to announce that it's happening at all.",
+      "display": "expander",
+      "pullquote": "it's having the sixth sense to acutely realize what a specific room, and its specific students, actually need."
+    }
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "id": "ep-06",
+  "number": "06",
+  "title": "Assessment and reporting",
+  "thesis": "Evaluating formative checks, non-traditional assessment matrices, and authentic performance tasks in English.",
+  "keyFinding": "Criterion-referenced rubrics and immediate formative feedback turn assessment into an active editing loop.",
+  "status": "PENDING",
+  "colorToken": "--color-construction-dark",
+  "worksheetPdf": "/docs/Episode-06-FS1.pdf",
+  "ppstDomains": [
+    "Domain 5: Assessment and Reporting (Strands 5.1, 5.2, 5.3, 5.5)"
+  ],
+  "questions": [
+    {
+      "id": "q-06-1",
+      "status": "PENDING",
+      "prompt": "How are formative assessments and performance task rubrics communicated to learners before and after drafting?",
+      "answer": "[Episode 06 worksheet answer pending client submission: Analysis of formative checks, non-traditional assessment matrix, and rubric feedback practices observed in English.]",
+      "pullQuoteExcerpt": "formative checks, non-traditional assessment matrix, and rubric feedback practices",
+      "display": "expander"
+    }
+  ],
+  "sections": [
+    {
+      "id": "ep06-sec1",
+      "status": "COMPLETE",
+      "kicker": "Formative practice",
+      "title": "Formative assessment and feedback practices",
+      "content": [
+        "In secondary English and journalism instruction, ongoing formative checks allow the teacher to diagnose misconceptions in diction and structure before final grading. [See also: Episode 04 — Teaching and learning process]"
+      ]
+    },
+    {
+      "id": "ep06-sec2",
+      "status": "COMPLETE",
+      "kicker": "Authentic tasks",
+      "title": "Non-traditional assessment matrix and performance tasks",
+      "content": [
+        "Performance tasks require students to apply language and journalism conventions in authentic writing outputs evaluated against explicit rubric criteria."
+      ]
+    }
+  ],
+  "tables": [
+    {
+      "id": "table-ep06-assessment",
+      "status": "COMPLETE",
+      "title": "Non-traditional and authentic assessment matrix",
+      "description": "Overview of formative and authentic evaluation tools observed in English classes.",
+      "columns": [
+        { "key": "instrument", "label": "Assessment task", "width": "25%" },
+        { "key": "type", "label": "Modality", "width": "20%" },
+        { "key": "targetCompetency", "label": "Target competency", "width": "35%" },
+        { "key": "feedbackLoop", "label": "Feedback mechanism", "width": "20%" }
+      ],
+      "rows": [
+        {
+          "instrument": "Lead writing exit slip",
+          "type": "Formative check",
+          "targetCompetency": "Drafting a concise hard news lead from fact sheets",
+          "feedbackLoop": "Next-session board review of strong examples"
+        },
+        {
+          "instrument": "Diction and modifier revision",
+          "type": "Formative workshop",
+          "targetCompetency": "Clarifying clausal modifiers and active verb choice",
+          "feedbackLoop": "Immediate oral and board feedback during practice"
+        },
+        {
+          "instrument": "Journalistic article / column draft",
+          "type": "Performance task",
+          "targetCompetency": "Coherent structure, factual accuracy, and editorial style",
+          "feedbackLoop": "Criterion-referenced rubric and teacher margin notes"
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "media-ep06-rubric",
+      "type": "certificate",
+      "caption": "Scoring rubric and assessment artifact [awaiting client worksheet attachment].",
+      "aspectRatio": "4:3",
+      "title": "Assessment rubric artifact"
+    }
+  ],
+  "quotes": [
+    {
+      "quote": "Good margin notes do not just justify a score; they show the writer what their next draft can become.",
+      "attribution": "Field observation note",
+      "role": "Episode 06 log"
+    }
+  ],
+  "reflection": {
+    "status": "PENDING",
+    "prompt": "How will you use formative feedback and rubrics to support student writers in your own classroom?",
+    "text": "[Episode 06 reflection pending client completion.]"
+  }
+}

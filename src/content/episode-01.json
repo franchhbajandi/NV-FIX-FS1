@@ -1,0 +1,665 @@
+{
+  "_note": "VERBATIM client content except the logged items in _changes. Keys starting with underscore are NOT content: never render or verify them. 'themeQuote' and 'pullquote' are exact substrings of the client's own text (display hints only). Single-asterisk spans mean italic and double-asterisk spans mean bold: render them as emphasis; verification compares text with the asterisks removed on both sides. In credo sections, render each 'lead' as the bold opening phrase followed by a space and the first paragraph; render each audience 'label' bold followed by a space and its text. Objects with status PENDING are hidden in production and print. An evidence entry whose url starts with # is an internal link to a section of this site.",
+  "_omitted": [
+    "Module introduction, course information, PPST bullet list and the task instruction paragraphs (module text, not client work)",
+    "Evidence-cell note 'Pending - to be completed via Task 3 Teaching Credo' on indicator 7.1.1",
+    "Table border/format artifacts from the Word file"
+  ],
+  "_changes": [
+    "Credo: a space was added after bold or italic runs where the Word text had none (after the opening phrases, after 'process', after 'guide on the side', and in the audience labels); a space was added after '\"leveling down,\"' and after '\"warm demander\"'. Client to confirm against the Word file.",
+    "Credo opening phrases and audience labels moved into separate 'lead' and 'label' fields so they can be styled; the text is unchanged",
+    "Level descriptions split into label and description (parentheses removed)",
+    "Evidence cells split into label and link entries",
+    "Indicator 7.1.1 upgraded from Slightly Achieved to Moderately Achieved, with the Teaching Credo as its evidence (an in-site link)",
+    "Indicators 6.3.1 and 7.5.1 moved from Not Achieved to Slightly Achieved",
+    "Typos fixed in the credo: 'studenrs' to 'students' and 'schools collective vision' to 'school's collective vision'"
+  ],
+  "episode": {
+    "number": "01",
+    "titleLines": [
+      "My Academic Roadmap",
+      "My Teaching Philosophy"
+    ],
+    "accent": "notebook",
+    "themeQuote": "not an empty vessel waiting to be filled",
+    "worksheetPdf": "",
+    "task1": {
+      "number": "1",
+      "title": "Self-assessment",
+      "levels": [
+        {
+          "label": "Not Achieved",
+          "description": "Without any evidence to support claim of achievement"
+        },
+        {
+          "label": "Slightly Achieved",
+          "description": "Without evidence to support claim of achievement, but with ongoing engagement/s which could support claim of achievement."
+        },
+        {
+          "label": "Moderately Achieved",
+          "description": "With one (1) evidence to support claim of achievement."
+        },
+        {
+          "label": "Fully Achieved",
+          "description": "With two or more evidence/s to support claim of achievement."
+        }
+      ],
+      "domains": [
+        {
+          "heading": "Domain 1: Content Knowledge and Pedagogy",
+          "indicators": [
+            {
+              "indicator": "1.1.1 Demonstrate content knowledge and its application within and/or across curriculum teaching areas.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/16JehmWZTzBpWOGv7lpawQrcJ8PJ2-KO-/view?usp=drivesdk",
+                  "label": "Microteaching video"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. II/III (Content/Learning Resources)"
+                }
+              ]
+            },
+            {
+              "indicator": "1.2.1 Demonstrate an understanding of research-based knowledge and principles of teaching and learning.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/16JehmWZTzBpWOGv7lpawQrcJ8PJ2-KO-/view?usp=drivesdk",
+                  "label": "Bilingual acquisition case study"
+                },
+                {
+                  "url": "https://docs.google.com/document/d/1zvZmbORsd2sl4_LE7Qk3zsnLKLKDRrHXvSJooMqd3ao/edit?usp=drivesdk",
+                  "label": "GAD thesis"
+                }
+              ]
+            },
+            {
+              "indicator": "1.3.1 Show skills in the positive use of ICT to facilitate the teaching and learning process.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://bajandi-truth-seekers-academy.netlify.app/",
+                  "label": "Truth Seekers Academy site"
+                },
+                {
+                  "url": "https://www.menti.com/alwpx58qoxho",
+                  "label": "Menti poll"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. III.B (Laptop, projector, speakers)"
+                }
+              ]
+            },
+            {
+              "indicator": "1.4.1 Demonstrate knowledge of teaching strategies that promote literacy and numeracy skills.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.C (vocabulary/context clues)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. I (Learning Objectives a-c)"
+                }
+              ]
+            },
+            {
+              "indicator": "1.5.1 Apply teaching strategies that develop critical and creative thinking, and/or other higher-order thinking skills.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.E (Deeper Analysis)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. III.A (Carlos/Jessa case analysis)"
+                }
+              ]
+            },
+            {
+              "indicator": "1.6.1 Use Mother Tongue, Filipino and English to facilitate teaching and learning.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1ikJU5o6t5B-g7vVouQ4uS5caiNC_4p6RAgYXlrKyU0A/edit?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "1.7.1 Demonstrate an understanding of the range of verbal and non-verbal classroom communication strategies that support learner understanding, participation, engagement and achievement.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/16JehmWZTzBpWOGv7lpawQrcJ8PJ2-KO-/view?usp=drivesdk"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1N76JhV7aTUt0iWDmf8z6IFZoT1SSUCbm/view?usp=drivesdk"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.F (group presentations)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. III.C (Assimilation drills)"
+                }
+              ]
+            }
+          ],
+          "notYetAchieved": "None - all indicators in this domain have at least Moderately Achieved evidence.",
+          "remarks": "Strong domain overall. Content knowledge, ICT integration, literacy/HOTS strategies, and communication skills are all well-supported by the microteaching video and both DLPs."
+        },
+        {
+          "heading": "Domain 2: Learning Environment",
+          "indicators": [
+            {
+              "indicator": "2.1.1 Demonstrate knowledge of policies, guidelines and procedures that provide safe and secure learning environments.",
+              "level": "Not Achieved",
+              "evidence": []
+            },
+            {
+              "indicator": "2.2.1 Demonstrate understanding of learning environments that promote fairness, respect and care to encourage learning.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://bajandi-ail2-eportfolio.netlify.app/",
+                  "label": "e-Portfolio (Artifact #6)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. III.A (digital citizenship/cyber-libel discussion)"
+                }
+              ]
+            },
+            {
+              "indicator": "2.3.1 Demonstrate knowledge of managing classroom structure that engages learners, individually or in groups, in meaningful exploration, discovery and hands-on activities within the available physical learning environments.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1kgFcXN8sXjoFRlLNSeYnaj0VBN6gk2va/view?usp=drivesdk"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.F (group task setup)"
+                }
+              ]
+            },
+            {
+              "indicator": "2.4.1 Demonstrate understanding of supportive learning environments that nurture and inspire learner participation.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.F-G (group + reflection activities)"
+                }
+              ]
+            },
+            {
+              "indicator": "2.5.1 Demonstrate knowledge of learning environments that motivate learners to work productively by assuming responsibility for their own learning.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1vwn9kGLGutXBFeK2wvFb9XsBnk8PkG3s/view?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "2.6.1 Demonstrate knowledge of positive and non-violent discipline in the management of learner behavior.",
+              "level": "Not Achieved",
+              "evidence": []
+            }
+          ],
+          "notYetAchieved": "2.1.1 - Demonstrate knowledge of policies, guidelines and procedures that provide safe and secure learning environments. 2.6.1 - Demonstrate knowledge of positive and non-violent discipline in the management of learner behavior.",
+          "remarks": "Fairness, classroom structure, and learner motivation are supported by existing evidence. Still need to gather documentation on safety protocols (e.g., DepEd Child Protection Policy) and a concrete discipline/classroom management plan."
+        },
+        {
+          "heading": "Domain 3: Diversity of Learners",
+          "indicators": [
+            {
+              "indicator": "3.1.1 Demonstrate knowledge and understanding of differentiated teaching to suit the learners’ gender, needs, strengths, interests and experiences.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1mZsisCepCjbiDETPYTBwgDpdQzgWRkzPRVh6hhHCeXw/edit?usp=drivesdk"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.F (three group options by modality)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. III.E (tiered activity)"
+                }
+              ]
+            },
+            {
+              "indicator": "3.2.1 Implement teaching strategies that are responsive to the learners’ linguistic, cultural, socio-economic and religious backgrounds.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://play.makeit.app?code=533974"
+                }
+              ]
+            },
+            {
+              "indicator": "3.3.1 Use strategies responsive to learners with disabilities, giftedness and talents.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/14ErOjD5NIPSxwCEFdogmTTBdhttmnU0Z/edit?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "3.4.1 Demonstrate understanding of the special educational needs of learners in difficult circumstances, including: geographic isolation; chronic illness; displacement due to armed conflict, urban resettlement or disasters; child abuse and child labor practices.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/15kxOhZEsrs6cg5CM60977wIHoRpIHerG/view?usp=drivesdk"
+                },
+                {
+                  "url": "https://docs.google.com/document/d/1-g-JEq50OeUMODmfVi_QosfVfSa94WaB9C-SbR-Hhgw/edit?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "3.5.1 Demonstrate knowledge of teaching strategies that are inclusive of learners from indigenous groups.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://www.canva.com/design/DAHEBP8f7mQ/SE9KlZvKgiaCWPWXaDDO6A/edit"
+                }
+              ]
+            }
+          ],
+          "notYetAchieved": "None - all indicators in this domain have at least Moderately Achieved evidence.",
+          "remarks": "Differentiation, linguistic/cultural responsiveness, and support for learners in difficult circumstances or with diverse needs are all evidenced."
+        },
+        {
+          "heading": "Domain 4: Curriculum and Planning",
+          "indicators": [
+            {
+              "indicator": "4.1.1 Prepare developmentally sequenced teaching and learning processes to meet curriculum requirements.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. I.C (Learning Competencies/Objectives)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. I (Learning Objectives)"
+                }
+              ]
+            },
+            {
+              "indicator": "4.2.1 Identify learning outcomes that are aligned with learning competencies.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. I.C (Learning Competencies/Objectives)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. I (Learning Objectives)"
+                }
+              ]
+            },
+            {
+              "indicator": "4.3.1 Demonstrate knowledge in the implementation of relevant and responsive learning programs.",
+              "level": "Not Achieved",
+              "evidence": []
+            },
+            {
+              "indicator": "4.4.1 Seek advice concerning strategies that can enrich teaching practice.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/17tQ6Hi9A3JuSMsLQgsCrTDUMfGQ2JXqQFQzsU3B-FJI/edit?usp=drivesdk"
+                },
+                {
+                  "url": "https://docs.google.com/document/d/1XF2aqDgXsZxbzab3WLv_qO0Ws5fq9BlUUGyAJbkxOZQ/edit?usp=drivesdk",
+                  "label": "Artifact #2"
+                }
+              ]
+            },
+            {
+              "indicator": "4.5.1 Show skills in the selection, development and use of a variety of teaching and learning resources, including ICT, to address learning goals.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. III.B (Other Learning Resources)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. II (Materials list)"
+                }
+              ]
+            }
+          ],
+          "notYetAchieved": "4.3.1 - Demonstrate knowledge in the implementation of relevant and responsive learning programs.",
+          "remarks": "Curriculum sequencing, aligned objectives, and resource variety are well-covered by both DLPs. Need evidence of a specific relevant/responsive learning program (e.g., a remediation or enrichment initiative) to close this gap."
+        },
+        {
+          "heading": "Domain 5: Assessment and Reporting",
+          "indicators": [
+            {
+              "indicator": "5.1.1 Demonstrate knowledge of the design, selection, organization and use of diagnostic, formative and summative assessment strategies consistent with curriculum requirements.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1Y6WxvW1IdyvLm1n1hpMS1YSw5nuc2zIclSxiFteZDa8/edit?usp=drivesdk"
+                },
+                {
+                  "url": "https://docs.google.com/document/d/1zLIzs6-Ho5Zz7PbWsjZug4eLrUsmAVOG/edit?usp=drivesdk"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1yugJaqDnNc8sSabGbDxbOiPXq3gl_Wcp/view?usp=drivesdk",
+                  "label": "BAJANDI-DLP, Sec. IV.I (Evaluating learning)"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. IV (Evaluation A-B)"
+                }
+              ]
+            },
+            {
+              "indicator": "5.2.1 Demonstrate knowledge of monitoring and evaluation of learner progress and achievement using learner attainment data.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/1Jc_cYKChxjbmnYJIULgIy2NsvZwBlYKby88MfaLYimY/edit?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "5.3.1 Demonstrate knowledge of providing timely, accurate and constructive feedback to improve learner performance.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1stBZg-2prtRvtxlMXUDaU9j_U8789_Tr/view?usp=drivesdk",
+                  "label": "OpinionMarkingSignals-DLP, Sec. III.C (feedback during rapid-fire drill)"
+                }
+              ]
+            },
+            {
+              "indicator": "5.4.1 Demonstrate familiarity with a range of strategies for communicating learner needs, progress and achievement.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/17C9OZeCVgQ-QfWO0XSwxlB7jqCwCTaWZ/view?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "5.5.1 Demonstrate an understanding of the role of assessment data as feedback in teaching and learning practices and programs.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1XF2aqDgXsZxbzab3WLv_qO0Ws5fq9BlUUGyAJbkxOZQ/edit?usp=drivesdk"
+                },
+                {
+                  "url": "https://docs.google.com/spreadsheets/d/1Jc_cYKChxjbmnYJIULgIy2NsvZwBlYKby88MfaLYimY/edit?usp=drivesdk"
+                }
+              ]
+            }
+          ],
+          "notYetAchieved": "None - all indicators in this domain have at least Moderately Achieved evidence.",
+          "remarks": "Assessment design, monitoring, feedback, and use of assessment data are all supported. Domain is in good standing."
+        },
+        {
+          "heading": "Domain 6: Community Linkages and Professional Engagement",
+          "indicators": [
+            {
+              "indicator": "6.1.1 Demonstrate an understanding of knowledge of learning environments that are responsive to community contexts.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1Q_YH1SB_7ODMDYO64c0bi_0rOpV1gYEX/edit?usp=drivesdk"
+                },
+                {
+                  "url": "https://docs.google.com/document/d/1yIrL_-zjvQfXl9rxGtcwH2lhKFj6xcVF/edit?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "6.2.1 Seek advice concerning strategies that build relationships with parents/guardians and the wider community.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/17C9OZeCVgQ-QfWO0XSwxlB7jqCwCTaWZ/view?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "6.3.1 Demonstrate awareness of existing laws and regulations that apply to the teaching profession, and become familiar with the responsibilities specified in the *Code of Ethics for Professional Teachers*.",
+              "level": "Slightly Achieved",
+              "evidence": []
+            },
+            {
+              "indicator": "6.4.1 Demonstrate knowledge and understanding of school policies and procedures to foster harmonious relationships with the wider school community.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1P8idtK8zQMaFqqTLlThKPhoHXypH8UjxjB9oQI6VKL8/edit?usp=drivesdk"
+                }
+              ]
+            }
+          ],
+          "notYetAchieved": "6.3.1 - Demonstrate awareness of existing laws and regulations that apply to the teaching profession.",
+          "remarks": "Community-responsive practices and stakeholder relationships are documented. Still need a short reflection or document citing awareness of RA 4670 (Magna Carta for Public School Teachers) and the Code of Ethics for Professional Teachers."
+        },
+        {
+          "heading": "Domain 7: Personal Growth and Professional Development",
+          "indicators": [
+            {
+              "indicator": "7.1.1 Articulate a personal philosophy of teaching that is learner-centered.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "label": "My Teaching Credo (Episode 1, Task 3)",
+                  "url": "#ep1-task3"
+                }
+              ]
+            },
+            {
+              "indicator": "7.2.1 Demonstrate behaviors that uphold the dignity of teaching as a profession by exhibiting qualities such as caring attitude, respect and integrity.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://docs.google.com/document/d/1XF2aqDgXsZxbzab3WLv_qO0Ws5fq9BlUUGyAJbkxOZQ/edit?usp=drivesdk",
+                  "label": "Artifact #1"
+                }
+              ]
+            },
+            {
+              "indicator": "7.3.1 Seek opportunities to establish professional links with colleagues.",
+              "level": "Moderately Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1JIcVd5Wt0FaI62p0hKvQLV-OyuY3cWut/view?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "7.4.1 Demonstrate an understanding of how professional reflection and learning can be used to improve practice.",
+              "level": "Fully Achieved",
+              "evidence": [
+                {
+                  "url": "https://drive.google.com/file/d/1_nbbUAxH7RKTuW1CGtmniptdOcNrtquX/view?usp=drivesdk"
+                },
+                {
+                  "url": "https://drive.google.com/file/d/1y-VRFG2Y6suT8VxFKKpXyvRnZRCTnEep/view?usp=drivesdk"
+                },
+                {
+                  "url": "https://docs.google.com/document/d/1Nfr7tp5QFH5FR6li7xXovmCMtiHB6kne_M_jMq-yukw/edit?usp=drivesdk"
+                }
+              ]
+            },
+            {
+              "indicator": "7.5.1 Demonstrate motivation to realize professional development goals based on the Philippine Professional Standards for Teachers.",
+              "level": "Slightly Achieved",
+              "evidence": []
+            }
+          ],
+          "notYetAchieved": "7.5.1 - Demonstrate motivation to realize professional development goals based on the PPST.",
+          "remarks": "Professional reflection and use of feedback for growth are evidenced."
+        }
+      ]
+    },
+    "task2": {
+      "number": "2",
+      "title": "Academic Roadmap",
+      "roadmap": {
+        "status": "PENDING"
+      }
+    },
+    "task3": {
+      "number": "3",
+      "title": "My Teaching Philosophy",
+      "philosophiesTable": {
+        "columns": [
+          {
+            "key": "philosophy",
+            "label": "Philosophies of Education"
+          },
+          {
+            "key": "deped",
+            "label": "Which philosophies are expressed in the DepEd Vision, Mission Statements, Core Values, Mandate? Give proof."
+          },
+          {
+            "key": "k12",
+            "label": "Which philosophies are expressed in the K to 12 Curriculum Framework and Guide and Sec 5 of RA 10533? Give proof."
+          }
+        ],
+        "rows": [
+          {
+            "philosophy": "Essentialism",
+            "definition": "Essentialism- teach mastery of the basics; curriculum is prescribed; subject matter-centered there are universal, objective values; inculcate values in subject matter",
+            "deped": "Essentialism- The core values of maka-Diyos, maka-tao, maka-kalikasan and makabansa show that DepEd is essentialist. DepEd believes in unchanging values that need to be inculcated.",
+            "k12": "Essentialism- List of standards and competencies that learners are expected to attain is the subject matter that students are expected to learn. -Essentialist"
+          },
+          {
+            "philosophy": "Perennialism",
+            "definition": "Perennialism- teach those that last, the classics; there are universal values; inculcate these universal values, objective values",
+            "deped": "There is no clear evidence suggesting this. Rather, the vision and mission emphasizes present national development and its continuous development rather than transmitting “fixed” or “classic” knowledge.",
+            "k12": "No clear evidence of this. Instead of following a fixed classical canon like in Perennialism, spiral progression is followed; as stipulated in Sec. 5."
+          },
+          {
+            "philosophy": "Progressivism",
+            "definition": "Progressivism- very child-centered; teach those that interest the child; one learns by experience; learners learn by doing so teacher teacher’s teaching is experiential; values are subjective; no inculcation of values since they are subjective; instead, teachers help students clarify their values",
+            "deped": "The mission explicitly states that students learn in a “child-friendly, gender-sensitive, safe, and motivating environment,” putting a non-negotiable on students’ needs as the center of the learning journey.",
+            "k12": "RA 10533 Sec. 5(a): curriculum shall be “learner-centered, inclusive and developmentally appropriate.” K to 12 Framework: the learner is a “constructor of knowledge and active maker of meaning, not a passive recipient of information.”"
+          },
+          {
+            "philosophy": "Reconstructionism",
+            "definition": "Reconstructionism- school is agent of change; schooling is preparing students for the social changes; teaching is involving the students in discussions of moral dilemmas",
+            "deped": "Vision: Filipinos who “contribute meaningfully to building the nation”; Mission calls on family, community, and stakeholders to share responsibility for developing life-long learners.",
+            "k12": "K to 12 Framework’s “Needs of National and Global Community” (poverty reduction, nationalism, environmental sustainability); RA 10533 Sec. 2: graduates shall have “the capacity and willingness to transform others and one’s self.”"
+          },
+          {
+            "philosophy": "Existentialism",
+            "definition": "Existentialism- Teachers teach learners to make a choice, to make decisions and not merely to follow the crowd; one who does not make a choice and so simply follow others do not leave meaningful life",
+            "deped": "The vision’s line (“realize their full potential”) acknowledges and respects each individual’s right to fulfilment of their own self-realized paths.",
+            "k12": "Under Nature of the Learner section in K to 12 Frameworks, “free will” is an acknowledged learner attribute—not just emotions or intellect."
+          },
+          {
+            "philosophy": "Pragmatism",
+            "definition": "Pragmatism- That which is useful, that which is practical and that which works is what is good; that which is efficient and effective is that which is good, e.g. showing a video clip on mitosis is more efficient and more effective and therefore more practical than teacher coming up with a visual aid by drawing mitosis on a cartolina or illustration board",
+            "deped": "Mission’s goal of “quality, equitable... basic education” is oriented toward producing functional, capable citizens.",
+            "k12": "K to 12 Framework feature: “flexible, ICT-based, and global.”"
+          },
+          {
+            "philosophy": "Rationalism",
+            "definition": "Rationalism-emphasizes the development of the learners’ reasoning powers; knowledge comes though reason; teacher must develop the reasoning power of the learner",
+            "deped": "DepEd’s vision of producing learners whose “values and competencies enable them to realize their full potential,” suggests a developed reasoning ability.",
+            "k12": "K to 12 21st Century Skills include “critical thinking problem solving skills.”"
+          },
+          {
+            "philosophy": "Utilitarianism",
+            "definition": "Utilitarianism- what is good is that which is most useful (that which brings happiness) to the greatest number of peoples;",
+            "deped": "Mandate: DepEd exists to build “a complete, adequate, and integrated system of basic education relevant to the goals of national development” — the good of the whole nation.",
+            "k12": "K to 12 Framework’s Needs of Community: development of “productive citizens who contribute to the building of a progressive, just, and humane society.”"
+          },
+          {
+            "philosophy": "Empiricism",
+            "definition": "Empiricism- source of knowledge is through the senses; teacher must involve the senses in teaching-learning",
+            "deped": "No direct evidence supporting its presence.",
+            "k12": "An indirect evidence of this is found in sample performance standards wherein students are required to use real data and engage their senses and observation skills."
+          },
+          {
+            "philosophy": "Behaviorism",
+            "definition": "Behaviorism- behavior is shaped deliberately by forces in the environment and that the type of person and actions desired can be the product of design; behavior is determined by others, rather than by person’s own free will; teacher must carefully shape desirable behavior; drills are commonly used to enhance learning, rewards reinforce learning.",
+            "deped": "No evidence. Rather, it actively goes against the philosophy. In the mission, teachers are describe as “facilitators” that “nurture” learners, not condition them.",
+            "k12": "No clear evidence; the K to 12 Framework explicitly rejects treating the learner as a “passive recipient of information,” which runs counter to Behaviorism’s stimulus-response view."
+          },
+          {
+            "philosophy": "Constructivism",
+            "definition": "Constructivism- Learners are capable of constructing knowledge and meaning; teaching-learning therefore is constructing knowledge and meaning; teacher does not just “tell” or dictate but asks learners for knowledge they construct and meaning of lesson",
+            "deped": "In the mission, teachers are outlined to be facilitators of learning, helping learners actively develop their own understanding as opposed to dictate what they should know.",
+            "k12": "RA 10533 Sec. 5(e): curriculum shall use pedagogical approaches that are “constructivist, inquiry-based, reflective, collaborative and integrative.” K to 12 Framework: learner is an “active maker of meaning.”"
+          },
+          {
+            "philosophy": "Humanism/Holism",
+            "definition": "Humanism/Holism- education develops the whole person (mind, body, spirit); learner is valued as a complete, integrated individual.",
+            "deped": "The four core values (Maka-Diyos, Maka-tao, Makakalikasan, Makabansa) target the learner’s spiritual, social, environmental, and civic dimensions together — a holistic view of the person.",
+            "k12": "K to 12 Framework’s central image: “Being and Becoming a Whole Person,” leading to a “Holistically Developed Filipino with 21st Century Skills.”",
+            "category": "Other Philosophies"
+          }
+        ]
+      },
+      "credo": {
+        "title": "My Teaching Credo",
+        "sections": [
+          {
+            "lead": "I believe that the learner",
+            "paragraphs": [
+              "is not an empty vessel waiting to be filled, but an individual who enters the classroom \"glass half full\"—already an author of their own life, carrying rich stories, cultural identities, and lived experiences. They possess an inherent capacity to make meaning, exercise agency, and critically question the world around them.",
+              "Students learn best not through passive compliance or disconnected lectures, but when they clearly grasp the relevance of what they are learning and see how each lesson connects to the broader human picture. Real, durable learning requires an appreciation for the process itself: students must discover that struggle, trial, and error are not indicators of inadequacy, but necessary, formative stages of cognitive and personal growth. Furthermore, learners thrive in an environment of peer collaboration, where dialogue, shared inquiry, and a sense of belonging serve as vital social lubricants that transform an otherwise daunting learning curve into a communal journey of discovery.",
+              "The ultimate purpose of their education extends far beyond test scores or economic utility. In an unpredictable, hyper-accelerated world, their learning exists to equip them with an intellectual arsenal: the capacity to learn how to learn, to unlearn when necessary, and to navigate changing realities with purpose, agency, and grounded confidence."
+            ],
+            "pullquote": "the capacity to learn how to learn, to unlearn when necessary, and to navigate changing realities with purpose, agency, and grounded confidence"
+          },
+          {
+            "lead": "I believe that I should teach the learners",
+            "paragraphs": [
+              "not merely subject-matter facts, but the non-negotiable human virtues of **hard work, intellectual humility, and critical discernment**. In an era increasingly automated by artificial intelligence and instant gratification, I teach my students to honor and respect the *process* of thought. Hard work cultivates grit, perseverance, and emotional resilience—the fortitude to fail forward and rebuild. Paired with this is humility: the self-awareness to recognize one's knowledge gaps and the deliberate, courageous choice to seek growth. Beyond grammar and literary comprehension, I teach students to interrogate texts, discern truth from manipulation, evaluate media critically, and ask the incisive, ethical questions that our society urgently needs."
+            ]
+          },
+          {
+            "lead": "I teach these by",
+            "paragraphs": [
+              "stepping into the role of a *guide on the side* and an *architect of their intellectual dreams*. Rather than running a one-way classroom dictated by rigid dogma, I design an active, inquiry-driven learning environment rooted in reciprocal dialogue. I bridge curriculum standards with real-world survival skills by demonstrating their inherent synergy—showing students how critical reading directly informs civic action and ethical digital citizenship.",
+              "To honor learner diversity without pigeonholing or lowering expectations, I implement **asset-based differentiated instruction**. Rather than \"leveling down,\" I establish universal high-level goals and provide varied, tiered scaffolds—multimodal resources, flexible pacing, and choices in demonstrating mastery—so every student, regardless of linguistic background or learning style, is met where they are and given the exact ladder needed to reach the finish line. My classroom climate is defined by three pillars: **clarity of structure, radical mutual respect, and uninhibited curiosity**, where every voice is heard and every earnest question is honored."
+            ]
+          },
+          {
+            "lead": "I believe that I must relate",
+            "paragraphs": [
+              "as a **\"warm demander\" to students**—an empathetic mentor who listens deeply to their lived realities while steadfastly holding them to high academic standards. From day one, I establish this balance by showing unconditional positive regard for who they are, coupled with an unapologetic refusal to let them settle for less than what they are capable of achieving. They know I enforce boundaries and expectations not out of authoritarian control, but out of unwavering belief in their potential."
+            ],
+            "audiences": [
+              {
+                "label": "To Colleagues and School Heads,",
+                "text": "a humble, collaborative professional who views teaching not as a solitary craft, but as a shared communal endeavor. I welcome constructive feedback and formal classroom observations with open arms, treating them as grounding opportunities that refine my pedagogical practice. I actively contribute what has worked, reflect honestly on what hasn't, and continuously collaborate to advance our school's collective vision."
+              },
+              {
+                "label": "To Parents and the Wider Community,",
+                "text": "as authentic partners and co-educators in the holistic formation of the learner. I move beyond transactional interactions limited to report card distributions; instead, I maintain accessible, transparent lines of communication that honor the home environment and welcome community realities into the classroom. Together, we build the circle of care and accountability that allows the learner to thrive both inside and outside the school gates."
+              }
+            ],
+            "pullquote": "an empathetic mentor who listens deeply to their lived realities while steadfastly holding them to high academic standards"
+          }
+        ]
+      }
+    }
+  }
+}

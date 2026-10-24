@@ -1,0 +1,6 @@
+{
+  "summary": "Revised implementation plan incorporating all 7 review changes: (1) visible status cell text derived from status (\"Available\" / \"Not available\") verified via data-verify-status with empty verified description cells on NA rows, (2) recursive ignoring of all _* keys and statusKey at any depth, (3) interactive isometric campus map with lit blocks for A, dashed ghost outlines for NA, Available/Not available toggle, data-computed counts, scroll assembly, and index-card inspector with photos/description, (4) red-pen stamps restricted exclusively to the psychosocial checklist, (5) Electric Editorial duotone/halftone filmstrip with scroll-snap and keyboard navigation (no 35mm skeuomorphism) for role: mood photos only, (6) path/index-based status registry keys with zero id mutations to source JSON files, and (7) full Phase A scope confirmation (top bar, chalk-dust hero, Episode 02 & 03, print edition, PDF pipeline) followed by hold for review with screenshots, bundle size, and verify-content report.",
+  "updatedAt": "2026-10-19T09:41:09.619978714Z",
+  "requestFeedback": true,
+  "userFacing": true
+}

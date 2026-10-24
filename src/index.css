@@ -1,0 +1,919 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   DESIGN SYSTEM v1: "THE MARKED-UP CLASSROOM"
+   Single Source of Truth for Tokens (Color, Type, Spacing, Shape, Motion)
+   No hardcoded hex, pixel, or font-size values in components.
+   ========================================================================== */
+
+:root {
+  /* 2.1 Color Tokens (Named for classroom objects) */
+  --color-chalkboard: #0C1612;          /* Deep green-black; base dark */
+  --color-chalkboard-elevated: #13221C; /* Elevated dark slate */
+  --color-chalk: #F2F5F0;               /* Cool white; base light, NOT cream */
+  --color-chalk-surface: #FFFFFF;       /* Crisp index-card surface */
+  --color-chalk-muted: #434E48;         /* AA-compliant secondary ink on chalk */
+  --color-chalk-faint: #78847D;         /* Muted chalk for secondary dark-mode text */
+  --color-highlighter: #FFE600;         /* Emphasis swipes, focus rings, Ep 05 */
+  --color-red-pen: #E5301F;             /* Marking, Red-Pen strokes, Ep 04 */
+  --color-notebook: #2447FF;            /* Composition-notebook blue, Ep 01 */
+  --color-construction: #0F6B45;        /* Construction-paper green, Ep 02 */
+  --color-construction-dark: #09472D;   /* Deep forest green, Ep 06 */
+  --color-plum: #6A1B6E;                /* Deep plum, Ep 03 */
+  --color-ink: #0C1612;                 /* Text on light; same as chalkboard */
+
+  /* Surface & Border Rules */
+  --color-border-dark: rgba(242, 245, 240, 0.2);
+  --color-border-light: rgba(12, 22, 18, 0.18);
+  --color-border-strong: #0C1612;
+  --color-rule-blue: rgba(36, 71, 255, 0.28);
+  --color-rule-red: rgba(229, 48, 31, 0.45);
+  --shadow-color: var(--color-ink);
+
+  /* 2.2 Typography Families (Two families + functional mono exception) */
+  --font-display: 'Bricolage Grotesque', system-ui, -apple-system, sans-serif;
+  --font-body: 'Instrument Sans', system-ui, -apple-system, sans-serif;
+  --font-mono-functional: 'JetBrains Mono', ui-monospace, monospace;
+
+  /* Fluid Type Scale (12, 14, 17, 20, 28, 40, 64, 96, 160+) */
+  --text-12: clamp(0.75rem, 0.72rem + 0.12vw, 0.8125rem);
+  --text-14: clamp(0.875rem, 0.84rem + 0.15vw, 0.9375rem);
+  --text-17: clamp(1.0625rem, 1.02rem + 0.18vw, 1.125rem);
+  --text-20: clamp(1.25rem, 1.16rem + 0.35vw, 1.375rem);
+  --text-28: clamp(1.5rem, 1.35rem + 0.75vw, 1.75rem);
+  --text-40: clamp(2rem, 1.65rem + 1.5vw, 2.5rem);
+  --text-64: clamp(2.5rem, 1.9rem + 2.6vw, 4rem);
+  --text-96: clamp(3.25rem, 2.2rem + 4.5vw, 6rem);
+  --text-160: clamp(4.25rem, 2.6rem + 7.5vw, 10rem);
+
+  /* 2.3 Spacing Scale (4, 8, 12, 16, 24, 32, 48, 80, 128) */
+  --space-4: 0.25rem;
+  --space-8: 0.5rem;
+  --space-12: 0.75rem;
+  --space-16: 1rem;
+  --space-24: 1.5rem;
+  --space-32: 2rem;
+  --space-48: 3rem;
+  --space-80: 5rem;
+  --space-128: 8rem;
+
+  /* 2.4 Shape, Hard Offset Shadow & Motion Tokens */
+  --radius-seating: 0px;
+  --radius-card: 2px;
+  --radius-pill: 9999px;
+
+  --shadow-hard: 4px 4px 0 var(--shadow-color);
+  --shadow-hard-hover: 6px 6px 0 var(--shadow-color);
+  --shadow-hard-pressed: 1px 1px 0 var(--shadow-color);
+  --shadow-hard-sm: 2px 2px 0 var(--shadow-color);
+
+  --dur-fast: 150ms;
+  --dur-base: 320ms;
+  --dur-slow: 700ms;
+  --ease-classroom: cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+/* Base Document Rules */
+body {
+  background-color: var(--color-chalkboard);
+  color: var(--color-chalk);
+  font-family: var(--font-body);
+  font-size: var(--text-17);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+::selection {
+  background-color: var(--color-highlighter);
+  color: var(--color-ink);
+}
+
+/* Skip Link for Keyboard Accessibility */
+.skip-link {
+  position: fixed;
+  top: var(--space-8);
+  left: var(--space-8);
+  z-index: 100;
+  padding: var(--space-8) var(--space-16);
+  background-color: var(--color-highlighter);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: var(--text-14);
+  font-weight: 700;
+  border: 2px solid var(--color-ink);
+  box-shadow: var(--shadow-hard);
+  transform: translateY(-200%);
+  transition: transform var(--dur-fast) var(--ease-classroom);
+}
+.skip-link:focus {
+  transform: translateY(0);
+  outline: 3px solid var(--color-highlighter);
+  outline-offset: 2px;
+}
+
+/* Global Visible Focus State (3px highlighter outline offset 2px) */
+:focus-visible {
+  outline: 3px solid var(--color-highlighter);
+  outline-offset: 2px;
+}
+
+/* Anchor Offset for Persistent Top Bar */
+[id] {
+  scroll-margin-top: var(--space-80);
+}
+
+/* ==========================================================================
+   TYPOGRAPHY ROLES (Fluid Scale & Measure <= 68ch)
+   ========================================================================== */
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-body, .font-sans {
+  font-family: var(--font-body);
+}
+
+/* Monospace strictly for Red-Pen Mode and Under the Hood */
+.font-mono-tech {
+  font-family: var(--font-mono-functional);
+  font-variant-numeric: tabular-nums;
+}
+
+.text-scale-12 { font-size: var(--text-12); line-height: 1.45; }
+.text-scale-14 { font-size: var(--text-14); line-height: 1.5; }
+.text-scale-17 { font-size: var(--text-17); line-height: 1.6; }
+.text-scale-20 { font-size: var(--text-20); line-height: 1.4; }
+.text-scale-28 { font-size: var(--text-28); line-height: 1.28; }
+.text-scale-40 { font-size: var(--text-40); line-height: 1.15; letter-spacing: -0.02em; }
+.text-scale-64 { font-size: var(--text-64); line-height: 1.06; letter-spacing: -0.03em; }
+.text-scale-96 { font-size: var(--text-96); line-height: 0.98; letter-spacing: -0.03em; }
+.text-scale-160 { font-size: var(--text-160); line-height: 0.92; letter-spacing: -0.03em; }
+
+.reading-measure {
+  max-width: 68ch;
+  text-align: left;
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   SURFACE & EPISODE PALETTE CLASSES (60-30-10 & WCAG AA Rules)
+   ========================================================================== */
+
+.surface-chalkboard {
+  background-color: var(--color-chalkboard);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+.surface-chalkboard-elevated {
+  background-color: var(--color-chalkboard-elevated);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+.surface-chalk {
+  background-color: var(--color-chalk);
+  color: var(--color-ink);
+  --shadow-color: var(--color-ink);
+}
+
+.surface-card {
+  background-color: var(--color-chalk-surface);
+  color: var(--color-ink);
+  --shadow-color: var(--color-ink);
+}
+
+/* Episode Dominant Surfaces */
+.episode-surface-01 {
+  background-color: var(--color-notebook);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+.episode-surface-02 {
+  background-color: var(--color-construction);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+.episode-surface-03 {
+  background-color: var(--color-plum);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+/* Episode 04 Red-Pen Rule: direct text on red-pen is strictly 24px+ (text-scale-28 and above) */
+.episode-surface-04 {
+  background-color: var(--color-red-pen);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+.episode-surface-05 {
+  background-color: var(--color-highlighter);
+  color: var(--color-ink);
+  --shadow-color: var(--color-ink);
+}
+
+.episode-surface-06 {
+  background-color: var(--color-construction-dark);
+  color: var(--color-chalk);
+  --shadow-color: var(--color-ink);
+}
+
+/* ==========================================================================
+   CLASSROOM OBJECT SHAPES (Section 2.4)
+   ========================================================================== */
+
+/* 1. Index Card: 2px radius, hard offset shadow (no ruled-line background behind text) */
+.shape-index-card {
+  background-color: var(--color-chalk-surface);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-hard);
+}
+
+.shape-index-card-plain {
+  background-color: var(--color-chalk-surface);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-hard);
+}
+
+/* 2. Sticky Note: slight tilt, folded corner bevel, hard shadow */
+.shape-sticky-note {
+  background-color: var(--color-highlighter);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-seating);
+  box-shadow: var(--shadow-hard);
+  transform: rotate(-1.25deg);
+  position: relative;
+}
+.shape-sticky-note::after {
+  content: '';
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  width: var(--space-16);
+  height: var(--space-16);
+  background: linear-gradient(
+    135deg,
+    var(--color-ink) 0%,
+    var(--color-ink) 50%,
+    var(--color-chalk) 50%,
+    var(--color-chalk) 100%
+  );
+  pointer-events: none;
+}
+
+/* 3. Ticket / Stub: notched sides for worksheets & artifact actions */
+.shape-ticket-stub {
+  background-color: var(--color-chalk-surface);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-hard);
+  position: relative;
+}
+
+/* 4. Seating-Chart Cell: 0px square radius, thin chalk/ink grid lines */
+.shape-seating-grid {
+  border-radius: var(--radius-seating);
+  border: 2px solid var(--color-ink);
+  background-color: var(--color-chalk-surface);
+  color: var(--color-ink);
+}
+
+/* 5. Pill Chip: strictly for episode switcher chips */
+.shape-episode-chip {
+  border-radius: var(--radius-pill);
+}
+
+/* ==========================================================================
+   BUTTON SYSTEM (Section 5: Primary, Secondary, Ghost + All 6 States)
+   ========================================================================== */
+
+.btn-base {
+  min-height: 44px;
+  padding: var(--space-8) var(--space-16);
+  font-family: var(--font-body);
+  font-size: var(--text-14);
+  font-weight: 600;
+  border-radius: var(--radius-card);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: var(--space-8);
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+  position: relative;
+  transition:
+    transform var(--dur-fast) var(--ease-classroom),
+    box-shadow var(--dur-fast) var(--ease-classroom),
+    background-color var(--dur-fast) var(--ease-classroom),
+    color var(--dur-fast) var(--ease-classroom);
+}
+
+.btn-primary {
+  background-color: var(--color-notebook);
+  color: var(--color-chalk);
+  border: 2px solid var(--color-ink);
+  box-shadow: var(--shadow-hard);
+}
+
+.btn-primary-highlighter {
+  background-color: var(--color-highlighter);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  box-shadow: var(--shadow-hard);
+}
+
+.btn-secondary {
+  background-color: var(--color-chalk-surface);
+  color: var(--color-ink);
+  border: 2px solid var(--color-ink);
+  box-shadow: var(--shadow-hard);
+}
+
+.btn-secondary-dark {
+  background-color: var(--color-chalkboard-elevated);
+  color: var(--color-chalk);
+  border: 2px solid var(--color-chalk);
+  box-shadow: 4px 4px 0 var(--color-ink);
+}
+
+.btn-ghost {
+  background-color: transparent;
+  color: inherit;
+  border: none;
+  box-shadow: none;
+  text-decoration: underline;
+  text-underline-offset: var(--space-4);
+  padding-inline: var(--space-8);
+}
+
+/* Hover State: shadow grows 2px */
+.btn-primary:hover:not(:disabled),
+.btn-primary-highlighter:hover:not(:disabled),
+.btn-secondary:hover:not(:disabled),
+.btn-secondary-dark:hover:not(:disabled) {
+  transform: translate(-2px, -2px);
+  box-shadow: var(--shadow-hard-hover);
+}
+
+/* Pressed State: moves into its shadow */
+.btn-primary:active:not(:disabled),
+.btn-primary-highlighter:active:not(:disabled),
+.btn-secondary:active:not(:disabled),
+.btn-secondary-dark:active:not(:disabled) {
+  transform: translate(3px, 3px);
+  box-shadow: var(--shadow-hard-pressed);
+}
+
+/* Disabled State: flat, 40% ink/chalk, no shadow */
+.btn-base:disabled,
+.btn-base[aria-disabled="true"] {
+  opacity: 0.45;
+  box-shadow: none;
+  transform: none;
+  cursor: not-allowed;
+}
+
+/* Loading State: chalk-dust shimmer */
+@keyframes chalkShimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+.btn-loading {
+  background-image: linear-gradient(
+    90deg,
+    rgba(242, 245, 240, 0) 0%,
+    rgba(242, 245, 240, 0.28) 50%,
+    rgba(242, 245, 240, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: chalkShimmer var(--dur-slow) infinite linear;
+}
+
+/* ==========================================================================
+   ANSWER BLOCK EXPANDER & HIGHLIGHTER SWIPE
+   ========================================================================== */
+
+.answer-expander-grid {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows var(--dur-base) var(--ease-classroom);
+}
+.answer-expander-grid[data-expanded="true"] {
+  grid-template-rows: 1fr;
+}
+.answer-expander-inner {
+  overflow: hidden;
+}
+
+.answer-preview-fade {
+  position: relative;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.answer-preview-fade::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: var(--space-32);
+  background: linear-gradient(to bottom, transparent, var(--color-chalk-surface));
+  pointer-events: none;
+}
+
+.highlighter-mark {
+  background-image: linear-gradient(120deg, var(--color-highlighter) 0%, var(--color-highlighter) 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 88%;
+  background-position: 0 85%;
+  color: var(--color-ink);
+  padding-inline: var(--space-4);
+  transition: background-size var(--dur-slow) var(--ease-classroom);
+}
+.highlighter-mark[data-drawn="true"] {
+  background-size: 100% 88%;
+}
+
+/* ==========================================================================
+   EMPHASIZED TEXT STYLES (highlight, redpen, circle, bold)
+   ========================================================================== */
+
+.emphasis-span {
+  position: relative;
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+}
+
+/* 1. highlight: highlighter-yellow swipe with ink text + bottom border cue (not color alone) */
+.emphasis-highlight {
+  background-image: linear-gradient(120deg, var(--color-highlighter) 0%, var(--color-highlighter) 100%);
+  background-repeat: no-repeat;
+  background-size: 0% 88%;
+  background-position: 0 86%;
+  color: var(--color-ink);
+  padding-inline: 2px;
+  border-bottom: 1.5px solid var(--color-ink);
+  transition: background-size var(--dur-slow) var(--ease-classroom);
+}
+.emphasis-highlight[data-drawn="true"] {
+  background-size: 100% 88%;
+}
+
+/* 2. redpen: hand-drawn red underline stroke (physical wave shape + color) */
+.emphasis-redpen {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 8' preserveAspectRatio='none'%3E%3Cpath d='M1 5.5 C 32 2, 64 7, 94 3.5 C 106 2.5, 114 5, 119 4' fill='none' stroke='%23E5301F' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  background-size: 0% 6px;
+  padding-bottom: 3px;
+  transition: background-size var(--dur-slow) var(--ease-classroom);
+}
+.emphasis-redpen[data-drawn="true"] {
+  background-size: 100% 6px;
+}
+
+/* 3. circle: hand-drawn red ring around the phrase (physical closed loop + color) */
+.emphasis-circle {
+  display: inline-block;
+  padding-inline: 6px;
+  padding-block: 1px;
+  margin-inline: -2px;
+}
+.emphasis-circle::after {
+  content: '';
+  position: absolute;
+  inset: -3px -5px;
+  pointer-events: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 44' preserveAspectRatio='none'%3E%3Cpath d='M 8 24 C 4 8, 42 2, 88 3 C 128 4, 137 16, 134 27 C 130 39, 86 42, 38 40 C 10 38, 4 29, 13 18' fill='none' stroke='%23E5301F' stroke-width='2.2' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  clip-path: inset(0 100% 0 0);
+  transition: clip-path var(--dur-slow) var(--ease-classroom);
+}
+.emphasis-circle[data-drawn="true"]::after {
+  clip-path: inset(0 0% 0 0);
+}
+
+/* 4. bold: heavier weight via variable-font axis */
+.emphasis-bold {
+  font-weight: 500;
+  font-variation-settings: 'wght' 500;
+  transition:
+    font-variation-settings var(--dur-slow) var(--ease-classroom),
+    font-weight var(--dur-slow) var(--ease-classroom);
+}
+.emphasis-bold[data-drawn="true"] {
+  font-weight: 700;
+  font-variation-settings: 'wght' 760;
+}
+
+html[data-tier="lite"] .emphasis-highlight {
+  background-size: 100% 88%;
+  transition: none;
+}
+html[data-tier="lite"] .emphasis-redpen {
+  background-size: 100% 6px;
+  transition: none;
+}
+html[data-tier="lite"] .emphasis-circle::after {
+  clip-path: inset(0 0% 0 0);
+  transition: none;
+}
+html[data-tier="lite"] .emphasis-bold {
+  font-weight: 700;
+  font-variation-settings: 'wght' 760;
+  transition: none;
+}
+
+/* ==========================================================================
+   PHOTO FRAME TREATMENTS (none, duotone, halftone)
+   ========================================================================== */
+
+.bg-halftone {
+  background-image: radial-gradient(circle, currentColor 1.2px, transparent 1.2px);
+  background-size: 8px 8px;
+}
+
+.treatment-duotone img {
+  filter: grayscale(100%) contrast(1.15);
+  mix-blend-mode: multiply;
+}
+
+/* ==========================================================================
+   EPISODE 04: THE "INDEX CARD EPISODE" SET PIECE & CARD DECK STYLES
+   ========================================================================== */
+
+/* 3D Flip Card Container & Faces */
+.card-flip-perspective {
+  perspective: 1200px;
+}
+
+.card-flip-inner {
+  position: relative;
+  width: 100%;
+  min-height: 220px;
+  transition: transform var(--dur-slow) var(--ease-classroom);
+  transform-style: preserve-3d;
+}
+
+.card-flip-inner.is-flipped {
+  transform: rotateY(180deg);
+}
+
+.card-flip-face {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.card-flip-back {
+  transform: rotateY(180deg);
+}
+
+html[data-tier="lite"] .card-flip-perspective {
+  perspective: none;
+}
+
+html[data-tier="lite"] .card-flip-inner {
+  transform-style: flat;
+  transition: none;
+}
+
+html[data-tier="lite"] .card-flip-inner.is-flipped {
+  transform: none;
+}
+
+html[data-tier="lite"] .card-flip-inner.is-flipped .card-flip-face:not(.card-flip-back) {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+html[data-tier="lite"] .card-flip-inner:not(.is-flipped) .card-flip-back {
+  visibility: hidden;
+  pointer-events: none;
+}
+
+html[data-tier="lite"] .card-flip-back {
+  transform: none;
+}
+
+/* Whiteboard Surface for Activity 2-2 Materials Checklist */
+.surface-whiteboard {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAF9 100%);
+  border: 4px solid #36433B;
+  border-radius: 6px;
+  box-shadow: 6px 6px 0 var(--color-ink);
+  position: relative;
+}
+
+.whiteboard-tray {
+  background: linear-gradient(180deg, #D4DAD6 0%, #B8C2BC 100%);
+  border-top: 2px solid #36433B;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15);
+}
+
+/* Seven-Step Lesson Arc Scroll-filled Path */
+.arc-step-node {
+  position: relative;
+  transition: all var(--dur-base) var(--ease-classroom);
+}
+
+.arc-step-node::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: -20px;
+  width: 20px;
+  height: 2px;
+  background-color: var(--color-ink);
+}
+
+/* ==========================================================================
+   EPISODE 01 TASK 3: "MY TEACHING CREDO" CHALKBOARD STAGE
+   ========================================================================== */
+
+.credo-stage {
+  background-color: var(--color-chalkboard);
+  color: var(--color-chalk);
+  position: relative;
+  box-shadow:
+    inset 0 0 0 2px var(--color-notebook),
+    inset 0 0 56px rgba(36, 71, 255, 0.24),
+    8px 8px 0 var(--color-ink);
+}
+
+.credo-stage .emphasis-highlight {
+  color: var(--color-chalk);
+  border-bottom-color: rgba(255, 230, 0, 0.75);
+  transition:
+    background-size 950ms var(--ease-classroom),
+    color 950ms var(--ease-classroom),
+    border-bottom-color 950ms var(--ease-classroom);
+}
+
+.credo-stage .emphasis-highlight[data-drawn="true"] {
+  color: var(--color-ink);
+  border-bottom-color: var(--color-ink);
+}
+
+.credo-stage .emphasis-bold {
+  color: var(--color-chalk);
+}
+
+.credo-stage .emphasis-bold[data-drawn="true"] {
+  color: #FFFFFF;
+}
+
+.credo-motion-slow {
+  transition:
+    transform 1050ms var(--ease-classroom),
+    opacity 1050ms var(--ease-classroom);
+}
+
+.credo-motion-slower {
+  transition:
+    transform 1250ms var(--ease-classroom),
+    opacity 1250ms var(--ease-classroom);
+}
+
+.credo-sentence {
+  display: inline;
+  transition: opacity 950ms var(--ease-classroom);
+}
+
+@keyframes credoChalkDriftA {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.26;
+  }
+  50% {
+    transform: translate3d(-14px, -22px, 0);
+    opacity: 0.42;
+  }
+  100% {
+    transform: translate3d(12px, -38px, 0);
+    opacity: 0.24;
+  }
+}
+
+@keyframes credoChalkDriftB {
+  0% {
+    transform: translate3d(0, 0, 0);
+    opacity: 0.18;
+  }
+  50% {
+    transform: translate3d(16px, -18px, 0);
+    opacity: 0.34;
+  }
+  100% {
+    transform: translate3d(-10px, -32px, 0);
+    opacity: 0.18;
+  }
+}
+
+.credo-chalk-dust,
+.credo-chalk-dust-secondary {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  will-change: transform, opacity;
+}
+
+.credo-chalk-dust {
+  background-image:
+    radial-gradient(circle at 18% 24%, rgba(242, 245, 240, 0.55) 1px, transparent 2px),
+    radial-gradient(circle at 76% 32%, rgba(255, 230, 0, 0.4) 1px, transparent 2px),
+    radial-gradient(circle at 42% 68%, rgba(242, 245, 240, 0.45) 1.2px, transparent 2.2px),
+    radial-gradient(circle at 84% 78%, rgba(242, 245, 240, 0.38) 1px, transparent 2px),
+    radial-gradient(circle at 26% 86%, rgba(36, 71, 255, 0.45) 1.5px, transparent 2.5px);
+  background-size: 240px 240px;
+  animation: credoChalkDriftA 26s infinite alternate ease-in-out;
+}
+
+.credo-chalk-dust-secondary {
+  background-image:
+    radial-gradient(circle at 62% 16%, rgba(242, 245, 240, 0.42) 1px, transparent 2px),
+    radial-gradient(circle at 12% 58%, rgba(255, 230, 0, 0.32) 1px, transparent 2px),
+    radial-gradient(circle at 88% 48%, rgba(242, 245, 240, 0.48) 1.2px, transparent 2.2px);
+  background-size: 310px 310px;
+  animation: credoChalkDriftB 34s infinite alternate ease-in-out;
+}
+
+.credo-chalk-dust[data-paused="true"],
+.credo-chalk-dust-secondary[data-paused="true"] {
+  animation-play-state: paused !important;
+}
+
+html[data-tier="lite"] .credo-chalk-dust,
+html[data-tier="lite"] .credo-chalk-dust-secondary {
+  animation: none !important;
+  transform: none !important;
+}
+
+html[data-tier="lite"] .credo-motion-slow,
+html[data-tier="lite"] .credo-motion-slower,
+html[data-tier="lite"] .credo-sentence {
+  opacity: 1 !important;
+  transform: none !important;
+  transition: none !important;
+}
+
+html[data-tier="lite"] .credo-stage .emphasis-highlight {
+  color: var(--color-ink) !important;
+  border-bottom-color: var(--color-ink) !important;
+}
+
+/* ==========================================================================
+   REDUCED MOTION & PRINT EDITION RULES
+   ========================================================================== */
+
+@media (prefers-reduced-motion: reduce) {
+  *, ::before, ::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+  .shape-sticky-note {
+    transform: none;
+  }
+  .highlighter-mark,
+  .emphasis-highlight {
+    background-size: 100% 88%;
+  }
+  .credo-stage .emphasis-highlight {
+    color: var(--color-ink) !important;
+    border-bottom-color: var(--color-ink) !important;
+  }
+  .credo-motion-slow,
+  .credo-motion-slower,
+  .credo-sentence {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .credo-chalk-dust,
+  .credo-chalk-dust-secondary {
+    animation: none !important;
+    transform: none !important;
+  }
+  .emphasis-redpen {
+    background-size: 100% 6px;
+  }
+  .emphasis-circle::after {
+    clip-path: inset(0 0% 0 0);
+  }
+  .emphasis-bold {
+    font-weight: 700;
+    font-variation-settings: 'wght' 760;
+  }
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 12mm 15mm;
+  }
+
+  body {
+    background-color: var(--color-chalk-surface) !important;
+    color: var(--color-ink) !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+    font-size: 10pt;
+    line-height: 1.5;
+  }
+
+  .no-print,
+  .skip-link {
+    display: none !important;
+  }
+
+  .print-only {
+    display: block !important;
+  }
+
+  /* Ensure all AnswerBlocks and EmphasizedText spans are static and expanded in print */
+  .answer-expander-grid {
+    grid-template-rows: 1fr !important;
+  }
+  .credo-audience-accordion-grid {
+    display: block !important;
+    grid-template-rows: 1fr !important;
+  }
+  .answer-preview-fade {
+    display: none !important;
+  }
+  .credo-motion-slow,
+  .credo-motion-slower,
+  .credo-sentence {
+    opacity: 1 !important;
+    transform: none !important;
+    transition: none !important;
+  }
+  .credo-chalk-dust,
+  .credo-chalk-dust-secondary {
+    display: none !important;
+  }
+  .emphasis-highlight,
+  .credo-stage .emphasis-highlight {
+    background-size: 100% 88% !important;
+    color: var(--color-ink) !important;
+    border-bottom-color: var(--color-ink) !important;
+    transition: none !important;
+  }
+  .emphasis-redpen {
+    background-size: 100% 6px !important;
+    transition: none !important;
+  }
+  .emphasis-circle::after {
+    clip-path: inset(0 0% 0 0) !important;
+    transition: none !important;
+  }
+  .emphasis-bold {
+    font-weight: 700 !important;
+    font-variation-settings: 'wght' 760 !important;
+    transition: none !important;
+  }
+
+  .credo-print-section {
+    break-before: page;
+    page-break-before: always;
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .break-inside-avoid {
+    break-inside: avoid;
+    page-break-inside: avoid;
+  }
+
+  .break-before-page {
+    break-before: page;
+    page-break-before: always;
+  }
+
+  .break-after-page {
+    break-after: page;
+    page-break-after: always;
+  }
+}

@@ -1,0 +1,329 @@
+{
+  "_note": "Presentation-only emphasis. Each 'text' is an exact substring of exactly one answer (or, for Episode 01, one credo paragraph or audience text) in the named episode file. Wrap matching text in a styled <span>; NEVER change the text itself (verification compares plain text). Do not apply to resource-teacher quotes. Styles: highlight = highlighter-yellow swipe with ink text (draw-on animation, once, on entering view); redpen = hand-drawn red underline; circle = hand-drawn red ring around the phrase; bold = heavier weight via the variable-font axis. Spans never overlap and never cross a paragraph break. Reduced motion: styles appear static. For Episode 01 the matching text is the credo paragraphs and audience texts; match against the plain text after bold/italic markers are parsed.",
+  "episode-02": [
+    {
+      "text": "translanguage freely across Bikol-Legazpi, Filipino, and English",
+      "style": "highlight"
+    },
+    {
+      "text": "typical and rigid, with no decorative elements",
+      "style": "redpen"
+    },
+    {
+      "text": "physical, social, and cognitive needs together",
+      "style": "circle"
+    },
+    {
+      "text": "it's about what I personally choose to do with the room I'm currently dealing with",
+      "style": "highlight"
+    },
+    {
+      "text": "I can decide whether my students feel safe enough to belong",
+      "style": "redpen"
+    },
+    {
+      "text": "a room made for them",
+      "style": "circle"
+    },
+    {
+      "text": "Students are human beings first",
+      "style": "bold"
+    },
+    {
+      "text": "a safety net that lets students unleash their potential without fear or judgment",
+      "style": "redpen"
+    },
+    {
+      "text": "dismantle the invisible hierarchy between teacher and student",
+      "style": "highlight"
+    },
+    {
+      "text": "celebrated as proof of growth",
+      "style": "circle"
+    },
+    {
+      "text": "intrinsic motivation",
+      "style": "highlight"
+    },
+    {
+      "text": "a genuine love of discovery",
+      "style": "circle"
+    }
+  ],
+  "episode-03": [
+    {
+      "text": "how communication and autonomy are handled at home",
+      "style": "highlight"
+    },
+    {
+      "text": "trust among themselves and with their parents, rather than pressure",
+      "style": "redpen"
+    },
+    {
+      "text": "exist on a one-way street",
+      "style": "circle"
+    },
+    {
+      "text": "not on resources or having a dedicated study space",
+      "style": "highlight"
+    },
+    {
+      "text": "the style of involvement itself",
+      "style": "bold"
+    },
+    {
+      "text": "structural accommodations rather than individualized ones",
+      "style": "highlight"
+    },
+    {
+      "text": "diversity-responsive classroom into its structure, not just my intentions",
+      "style": "redpen"
+    },
+    {
+      "text": "covert differences",
+      "style": "circle"
+    },
+    {
+      "text": "whoever is loudest",
+      "style": "highlight"
+    },
+    {
+      "text": "the starkest single data point across all four interviews",
+      "style": "redpen"
+    },
+    {
+      "text": "a learner lacking visibility into his own support structure",
+      "style": "highlight"
+    }
+  ],
+  "episode-04": [
+    {
+      "text": "a change in behavior",
+      "style": "highlight"
+    },
+    {
+      "text": "collapses into dictation",
+      "style": "redpen"
+    },
+    {
+      "text": "appreciating the process is what makes the results mean something",
+      "style": "highlight"
+    },
+    {
+      "text": "intentional, purposeful, deliberate, and above all, cooperative",
+      "style": "highlight"
+    },
+    {
+      "text": "responsive and aware",
+      "style": "highlight"
+    },
+    {
+      "text": "it's about how dedicated you are to your craft",
+      "style": "highlight"
+    },
+    {
+      "text": "goes by the heart",
+      "style": "circle"
+    },
+    {
+      "text": "PK is knowing how to run a classroom.",
+      "style": "bold"
+    },
+    {
+      "text": "content without delivery doesn't teach anyone anything",
+      "style": "redpen"
+    },
+    {
+      "text": "student-centered and process-oriented",
+      "style": "highlight"
+    },
+    {
+      "text": "content doesn't transmit on its own; it needs a vehicle",
+      "style": "highlight"
+    },
+    {
+      "text": "A plan is only as effective as its ending",
+      "style": "redpen"
+    },
+    {
+      "text": "scaffolding rather than lecture",
+      "style": "highlight"
+    },
+    {
+      "text": "a fairness mechanism as much as an engagement one",
+      "style": "highlight"
+    },
+    {
+      "text": "gradual-release arc",
+      "style": "circle"
+    },
+    {
+      "text": "demonstrably fair",
+      "style": "highlight"
+    },
+    {
+      "text": "real-time formative assessment",
+      "style": "circle"
+    },
+    {
+      "text": "a deliberate habit",
+      "style": "circle"
+    },
+    {
+      "text": "immediately routes students into applying it",
+      "style": "highlight"
+    },
+    {
+      "text": "fixing a messy paragraph under time pressure",
+      "style": "highlight"
+    },
+    {
+      "text": "equitable participation",
+      "style": "highlight"
+    },
+    {
+      "text": "without needing to announce that it's happening at all",
+      "style": "redpen"
+    }
+  ],
+  "episode-05": [
+    {
+      "text": "enforcement was visibly inconsistent",
+      "style": "redpen"
+    },
+    {
+      "text": "a recurring, named concern rather than a one-time reminder",
+      "style": "highlight"
+    },
+    {
+      "text": "there is always a gap that the teacher has to address",
+      "style": "highlight"
+    },
+    {
+      "text": "become something students know about rather than something they follow",
+      "style": "redpen"
+    },
+    {
+      "text": "demanding discernment from the teacher to be observant and proactive",
+      "style": "highlight"
+    },
+    {
+      "text": "peer-accountability structure",
+      "style": "circle"
+    },
+    {
+      "text": "top-down punishment",
+      "style": "redpen"
+    },
+    {
+      "text": "centralized instructional zone",
+      "style": "highlight"
+    },
+    {
+      "text": "active, continuous reinforcement of those routines",
+      "style": "highlight"
+    },
+    {
+      "text": "peer accountability and structured transitions",
+      "style": "highlight"
+    },
+    {
+      "text": "the invisible foundation that all instruction rests on",
+      "style": "highlight"
+    },
+    {
+      "text": "clear, co-created expectations",
+      "style": "circle"
+    }
+  ],
+  "episode-01": [
+    {
+      "text": "not an empty vessel waiting to be filled",
+      "style": "highlight"
+    },
+    {
+      "text": "already an author of their own life",
+      "style": "redpen"
+    },
+    {
+      "text": "critically question the world around them",
+      "style": "circle"
+    },
+    {
+      "text": "struggle, trial, and error are not indicators of inadequacy",
+      "style": "redpen"
+    },
+    {
+      "text": "necessary, formative stages of cognitive and personal growth",
+      "style": "highlight"
+    },
+    {
+      "text": "a communal journey of discovery",
+      "style": "circle"
+    },
+    {
+      "text": "an intellectual arsenal",
+      "style": "circle"
+    },
+    {
+      "text": "to unlearn when necessary",
+      "style": "highlight"
+    },
+    {
+      "text": "the non-negotiable human virtues",
+      "style": "highlight"
+    },
+    {
+      "text": "the fortitude to fail forward and rebuild",
+      "style": "redpen"
+    },
+    {
+      "text": "ask the incisive, ethical questions that our society urgently needs",
+      "style": "circle"
+    },
+    {
+      "text": "reciprocal dialogue",
+      "style": "highlight"
+    },
+    {
+      "text": "real-world survival skills",
+      "style": "circle"
+    },
+    {
+      "text": "universal high-level goals",
+      "style": "highlight"
+    },
+    {
+      "text": "given the exact ladder needed to reach the finish line",
+      "style": "redpen"
+    },
+    {
+      "text": "every voice is heard and every earnest question is honored",
+      "style": "circle"
+    },
+    {
+      "text": "unconditional positive regard for who they are",
+      "style": "highlight"
+    },
+    {
+      "text": "an unapologetic refusal to let them settle for less than what they are capable of achieving",
+      "style": "redpen"
+    },
+    {
+      "text": "out of unwavering belief in their potential",
+      "style": "circle"
+    },
+    {
+      "text": "a shared communal endeavor",
+      "style": "highlight"
+    },
+    {
+      "text": "authentic partners and co-educators",
+      "style": "highlight"
+    },
+    {
+      "text": "the circle of care and accountability",
+      "style": "circle"
+    }
+  ]
+}

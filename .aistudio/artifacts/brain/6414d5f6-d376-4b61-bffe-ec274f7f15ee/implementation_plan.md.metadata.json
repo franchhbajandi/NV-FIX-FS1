@@ -1,0 +1,6 @@
+{
+  "summary":  "Implementation plan to fix missing images on Netlify and Vercel builds by replacing broken runtime typeof import.meta.glob checks with compile-time-safe glob loaders, syncing fallback asset copies to public/assets, making the duotone build step resilient when ImageMagick is unavailable on CI runners, and adding Vercel SPA routing support.",
+  "updatedAt":  "2026-10-24T02:46:26.863742385Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}

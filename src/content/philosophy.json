@@ -1,0 +1,58 @@
+{
+  "title": "Personal Educational Philosophy",
+  "subtitle": "Language as Agency, the Classroom as an Editorial Newsroom of Inquiry",
+  "epigraph": "To teach English is not merely to standardize syntax; it is to equip young citizens with the precision, empathy, and courage to read the world critically and author their own reality.",
+  "credo": "I believe that every language classroom is a workshop of human agency—where disciplined craft meets democratic voice, and where no learner is left silent on the margins.",
+  "author": "Francois Joshua L. Bajandi",
+  "date": "Field Study 1 · Academic Year 2025–2026",
+  "statements": [
+    {
+      "id": "phil-1",
+      "lead": "I believe that language instruction is fundamentally ",
+      "emphasis": "an act of empowerment and civic enfranchisement",
+      "rest": ", transforming the English classroom from a site of passive rule-memorization into a living forum where students learn to interrogate texts, weigh evidence, and articulate truth with clarity."
+    },
+    {
+      "id": "phil-2",
+      "lead": "I hold that pedagogical authority and ",
+      "emphasis": "psychological safety are mutually reinforcing",
+      "rest": ": learners take intellectual risks in speaking, writing, and literary interpretation only when classroom routines are transparent, equitable, and anchored in genuine respect."
+    },
+    {
+      "id": "phil-3",
+      "lead": "I view the teacher as both ",
+      "emphasis": "architect of scaffolding and attentive editor of growth",
+      "rest": "—someone who models excellence explicitly, listens closely to student thinking before intervening, and uses assessment not to sort learners, but to illuminate their next step forward."
+    }
+  ],
+  "pillars": [
+    {
+      "id": "pillar-1",
+      "numeral": "I",
+      "title": "Communicative Competence & Critical Literacy",
+      "thesis": "Grammar and vocabulary acquire durable meaning only when deployed in authentic communicative tasks.",
+      "elaboration": "Drawing from both Vygotskian social constructivism and my training as a campus journalist, I design English instruction around real rhetorical situations. Whether analyzing a literary text or drafting a news lead, students must see how word choice, clausal structure, and tone shape human understanding. We do not study language in a vacuum; we study it as a living instrument of thought and social action.",
+      "classroomPractice": "Pairing explicit modeling of linguistic structures with immediate, real-world writing and speaking workshops.",
+      "theoristAnchor": "Lev Vygotsky (Zone of Proximal Development) & Paulo Freire (Critical Literacy)"
+    },
+    {
+      "id": "pillar-2",
+      "numeral": "II",
+      "title": "Structured Inquiry & Equitable Voice",
+      "thesis": "Every student deserves structured wait-time and low-stakes rehearsal before high-stakes performance.",
+      "elaboration": "In second-language classrooms, silence is rarely a sign of apathy; it is often the product of linguistic anxiety. Following Stephen Krashen's Affective Filter Hypothesis, my classroom management philosophy prioritizes predictable routines, collaborative pair-share rehearsals, and randomized, supportive turn-taking so that participation is a shared norm rather than the privilege of a vocal few.",
+      "classroomPractice": "Using index-card cold-calling paired with 3–5 seconds of purposeful wait-time and think-pair-share warm-ups.",
+      "theoristAnchor": "Stephen Krashen (Affective Filter) & Mary Budd Rowe (Wait-Time Research)"
+    },
+    {
+      "id": "pillar-3",
+      "numeral": "III",
+      "title": "Editorial Precision & Formative Feedback",
+      "thesis": "Assessment is an ongoing dialogue between writer and reader, not a post-mortem verdict.",
+      "elaboration": "In a publication newsroom, an editor marks a draft in red pen not to punish the writer, but to elevate the piece before it goes to press. I bring that same editorial ethic to classroom assessment. Analytic rubrics must be shared before the task begins, and feedback must be specific, actionable, and timely—celebrating what works while showing the learner exactly how to revise what does not.",
+      "classroomPractice": "Transparent analytic rubrics, live margin-note conferencing, and iterative revision cycles.",
+      "theoristAnchor": "Grant Wiggins (Backward Design) & Dylan Wiliam (Formative Assessment)"
+    }
+  ],
+  "closingCommitment": "As I move from the observer's desk toward my own teaching internship, I carry a singular commitment: to build classrooms that are as intellectually rigorous as a newsroom, as welcoming as a home, and as purposeful as the futures my students deserve."
+}

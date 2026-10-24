@@ -1,0 +1,14 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "rewrites": [
+    {
+      "source": "/print",
+      "destination": "/index.html"
+    },
+    {
+      "source": "/((?!assets/|docs/|Bajandi_FS1_Portfolio\\.pdf).*)",
+      "destination": "/index.html"
+    }
+  ]
+}
